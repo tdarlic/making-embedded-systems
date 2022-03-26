@@ -8,5 +8,4 @@ The buoys usually have a solar power and batteries so the device would have an D
 ![Hardware block diagram](/Week1/images/Hardware_block_diagram.drawio.png)
 
 ### Hierarchy of control diagram
-![GitHub Light](/Week1/images/Hierarchy_of_control_diagram.drawio.png#gh-dark-mode-only)
-![GitHub Dark](/Week1/images/Hierarchy_of_control_diagram.drawio.png#gh-light-mode-only)
+![Hierarchy of control diagram](/Week1/images/Hierarchy_of_control_diagram.png)
