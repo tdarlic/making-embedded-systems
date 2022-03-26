@@ -9,3 +9,6 @@ The buoys usually have a solar power and batteries so the device would have an D
 
 ### Hierarchy of control diagram
 ![Hierarchy of control diagram](/Week1/images/Hierarchy_of_control_diagram.png)
+
+### Layered software diagram
+![Layered software diagram](/Week1/images/Layered_software_diagram.png)
