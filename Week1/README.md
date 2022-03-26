@@ -6,3 +6,6 @@ The buoys usually have a solar power and batteries so the device would have an D
 
 ### Hardware Block Diagram
 ![Hardware block diagram](/Week1/images/Hardware_block_diagram.drawio.png)
+
+### Hierarchy of control diagram
+![Hardware block diagram](/Week1/images/Hierarchy_of_control_diagram.drawio.png)
