@@ -5,4 +5,4 @@ This device would be mounted on a navigation light buoy and would monitor positi
 The buoys usually have a solar power and batteries so the device would have an DC-DC converted and the power monitoring for the complete buoy. A radio modem (NBIoT, LoRA, GSM or similar) would provide updates to the server monitoring multiple buoys.
 
 ### Hardware Block Diagram
-![Hardware block diagram](/Week1/images/Hardware block diagram.drawio)
+![Hardware block diagram](/Week1/images/Hardware_block_diagram.drawio.png)
