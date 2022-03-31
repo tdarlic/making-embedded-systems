@@ -58,7 +58,7 @@ STM web page lists numerous application notes but following I find most interest
 
 ## 2. Discovery kit with STM32F429ZI investigation
 
-### MCU
+### 2.1 MCU
 
 Board has STM32F429ZIT6 microcontroller with following characteristics:
 * LQFP144 package
@@ -78,7 +78,7 @@ Board has STM32F429ZIT6 microcontroller with following characteristics:
 * 3 boot modes (flash, memory, SRAM)
 * Power supply 1.7 to 3.6 V
 
-### Board
+### 2.2 Board
 
 Apart of the MCU the board is supplied with:
 * 2.4" QVGA TFT LCD with touch screen
@@ -90,12 +90,12 @@ Apart of the MCU the board is supplied with:
 * 2 external oscillators (main and RTC - 32KHz is not soldered as per datasheet)
 * 2 extension headers for connecting to prototype boards 
 
-### Price and availability
+### 2.3 Price and availability
 
 It appears that the MCU is not readily available as expected. Lead time given from Mouser, Farnell and Digikey are more than 1 year. It appears that the price for the chip in 100s is approximately €20.
 Development board is available from reputable distributors and it appears that there are at least 30 boards available with each distributor. Price of the board is approximately €29 in single quantities.
 
-### Application notes
+### 2.4 Application notes
 There are several interesting application notes:
 * AN4776 General-purpose timer cookbook for STM32 microcontrollers
 * AN4861 LCD-TFT display controller (LTDC) on STM32 MCUs
