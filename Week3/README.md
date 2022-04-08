@@ -116,7 +116,10 @@ Stepping trough the code can be done live using debugger or with `Ctrl`+`Click` 
     - Finally, the direct registers addresses and mapping is located in ST/STM32F4xx directory in `stm32f4xx.h`  and `stm32f429xx.h` files
 
 ## 5. Further investigation
+### What are the hardware registers that cause the LED to turn on and off? (From the processor manual, don’t worry about initialization.)
+
 This is short description of registers invloved in setting up the green LED
+
 As described above below is description of green LED addresses from `main.h`:
 ```c
 #define LD3_Pin GPIO_PIN_13
@@ -125,11 +128,28 @@ As described above below is description of green LED addresses from `main.h`:
 Following register are invloved in turining the LED on and off:
 GPIO port used in this case is `GPIOG` and the address is defined in line 1254 in `stm32f429xx.h` file
 ```c
-#define GPIOG               ((GPIO_TypeDef *) GPIOG_BASE)
+#define GPIOG ((GPIO_TypeDef *) GPIOG_BASE)
 ```
 
 Individual pin address is described in higher level file `stm32f4xx_hal_gpio.h` on line 98:
 ```c
-#define GPIO_PIN_13                ((uint16_t)0x2000)
+#define GPIO_PIN_13 ((uint16_t)0x2000)
 ```
-The pin itself is described in 
+Following registers are avilable for GPIO setup:
+* GPIO port mode register (GPIOx_MODER)
+* GPIO port output type register (GPIOx_OTYPER) (push-pull or open drain)
+* GPIO port pull-up/pull-down register
+
+The register which causes the LED to be switched on or off is GPIO port output data register `(GPIOG_ODR)`.
+Pin 13 in this registers controls the our Green LED pin
+
+### What are the registers that you read in order to find out the state of the button?
+Button is defined as below
+```c
+#define B1_Pin GPIO_PIN_0
+#define B1_GPIO_Port GPIOA
+```
+So in order to find out the state of the button we can read the register GPIO port A input data register `(GPIOA_IDR)`
+
+### Can you read the register directly and see the button change in a debugger or by printing out the value of the memory at the register’s address?
+This can easily be done in debugger. We can stop the executoion at any time and then read the contents of the memory at `(GPIOA_IDR)`
