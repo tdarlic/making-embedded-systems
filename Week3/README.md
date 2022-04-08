@@ -1,5 +1,5 @@
 # Week 3 homework: Make Blinky
-Assignment code in submodule [BlinkySchmlinky](/Week3/BlinkySchmlinky)
+Assignment code in submodule [BlinkySchmlinky](https://github.com/tdarlic/BlinkySchmlinky/tree/10c50b6591dbdb91c094b17ef7c8818aa3ca1225)
 
 ## 1. Make blinky
 
