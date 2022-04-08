@@ -45,7 +45,7 @@ PA0 port has following aliases in _main.h_:
 #define B1_Pin GPIO_PIN_0
 #define B1_GPIO_Port GPIOA
 ```
-To have the interrupt working we need to have a callback implemented. This callback starts is setup by HAL in *stm32f4xx_hal_gpio.h* which defines following IRQ handler:
+To have the interrupt working we need to have a callback implemented. This callback starts is setup by HAL in `stm32f4xx_hal_gpio.h` which defines following IRQ handler:
 ```
 /**
   * @brief  This function handles EXTI interrupt request.
@@ -62,9 +62,9 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
   }
 }
 ```
-So this function is called on GPIO interrupt and it checks is particual GPIO IRQ set and if it is then calls *HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)* function defined in same file.
+So this function is called on GPIO interrupt and it checks is particual GPIO IRQ set and if it is then calls `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` function defined in same file.
 This function is defined with *__weak* attribute so we can define our normal function under the same name so that function will be linked instead into the same compile unit.
-*HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)* function is defined in *stm32f4xx_it.c* which finally contains code for the interrupt:
+`HAL_GPIO_EXTI_Callback(int16_t GPIO_Pin)` function is defined in `stm32f4xx_it.c` which finally contains code for the interrupt:
 ```
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if (GPIO_Pin == B1_Pin){
@@ -81,7 +81,7 @@ For the button debouncing I will use most primitive interrupt metod. Logic goes 
 3. If sufficient time has elapsed since the last button interrupt then triger new button toggle in code
 4. Exit the interrupt and resume normal code execution
 
-To acomplish this following was added to the *HAL_GPIO_EXTI_Callback* function:
+To acomplish this following was added to the `HAL_GPIO_EXTI_Callback` function:
 1. Global variable `delayTime` which was set to 100, this is our setting in ms for debounce (usually 50ms in unnoticable)
 2. Local static variable `lastButtonTime` which is used to remember last time interupt was triggered
 ```
