@@ -63,7 +63,7 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
 }
 ```
 So this function is called on GPIO interrupt and it checks is particual GPIO IRQ set and if it is then calls `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` function defined in same file.
-This function is defined with *__weak* attribute so we can define our normal function under the same name so that function will be linked instead into the same compile unit.
+This function is defined with `__weak` attribute so we can define our normal function under the same name so that function will be linked instead into the same compile unit.
 `HAL_GPIO_EXTI_Callback(int16_t GPIO_Pin)` function is defined in `stm32f4xx_it.c` which finally contains code for the interrupt:
 ```
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
@@ -84,7 +84,9 @@ For the button debouncing I will use most primitive interrupt metod. Logic goes 
 To acomplish this following was added to the `HAL_GPIO_EXTI_Callback` function:
 1. Global variable `delayTime` which was set to 100, this is our setting in ms for debounce (usually 50ms in unnoticable)
 2. Local static variable `lastButtonTime` which is used to remember last time interupt was triggered
-```
+
+Finally the debounce interrupt looks like this:
+```c
 volatile uint16_t delayTime= 100;
 //.....
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
@@ -98,3 +100,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	}
 }
 ```
+
+This debounce method is primitive and in undebounced button can couse MCU to interupt multuple times this makinf the code call IRQ unnecessary. 
+There are several method that could be used here to improve on the code. One is to disable this particular interrupt in the interrupt itself and start a timer who's interrupt will in turn switch back original interrupt on after it expires. 
+
