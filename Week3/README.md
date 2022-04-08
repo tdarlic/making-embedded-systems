@@ -112,8 +112,8 @@ Stepping trough the code can be done live using debugger or with `Ctrl`+`Click` 
     - Configues the system clock with `SystemClock_Config()`
     - Initializes all peripherals with `MX_GPIO_Init()`
     - All 3 of above functions can be found in `stm32f4xx_hal.c`. These functions in turn then call individual periperal code. For example RCC setup is done from `stm32f4xx_hal_rcc`
-    - All of the files above then call CMSIS Cortex-M1 Core Peripheral Access Layer Header File in Drivers/CMSIS folder and these files will address the particular peripherals registers individually
-    - Finally, the direct registers addresses and mapping is located in ST/STM32F4xx directory in `stm32f4xx.h`  and `stm32f429xx.h` files
+3. All of the files above then call CMSIS Cortex-M1 Core Peripheral Access Layer Header File in Drivers/CMSIS folder and these files will address the particular peripherals registers individually
+4. Finally, the direct registers addresses and mapping is located in ST/STM32F4xx directory in `stm32f4xx.h`  and `stm32f429xx.h` files
 
 ## 5. Further investigation
 ### What are the hardware registers that cause the LED to turn on and off? (From the processor manual, don’t worry about initialization.)
@@ -153,3 +153,4 @@ So in order to find out the state of the button we can read the register GPIO po
 
 ### Can you read the register directly and see the button change in a debugger or by printing out the value of the memory at the register’s address?
 This can easily be done in debugger. We can stop the executoion at any time and then read the contents of the memory at `(GPIOA_IDR)`
+![Debug screen showing input data registers](/Week3/images/debug_screen.png)
