@@ -1,4 +1,5 @@
 # Week 3 homework: Make Blinky
+Assignment code in submodule [BlinkySchmlinky](/Week3/BlinkySchmlinky)
 
 ## 1. Make blinky
 
