@@ -9,7 +9,7 @@ Following setup was used to make a Blinky:
 * STM32 CubeIDE 1.9 and default drivers
 
 STM32 Cube IDE code generator was used to create all code and minimum user code was then typed to have a working example.
-STM32 code generator generates all pin and port name aliases in _main.h_ and following aliases were used for green LED
+STM32 code generator generates all pin and port name aliases in `main.h` and following aliases were used for green LED
 ```c
 #define LD3_Pin GPIO_PIN_13
 #define LD3_GPIO_Port GPIOG
@@ -118,14 +118,14 @@ Stepping trough the code can be done live using debugger or with `Ctrl`+`Click` 
 ## 5. Further investigation
 ### What are the hardware registers that cause the LED to turn on and off? (From the processor manual, don’t worry about initialization.)
 
-This is short description of registers invloved in setting up the green LED
+This is short description of registers involved in setting up the green LED
 
 As described above below is description of green LED addresses from `main.h`:
 ```c
 #define LD3_Pin GPIO_PIN_13
 #define LD3_GPIO_Port GPIOG
 ```
-Following register are invloved in turining the LED on and off:
+Following register are involved in turining the LED on and off:
 GPIO port used in this case is `GPIOG` and the address is defined in line 1254 in `stm32f429xx.h` file
 ```c
 #define GPIOG ((GPIO_TypeDef *) GPIOG_BASE)
