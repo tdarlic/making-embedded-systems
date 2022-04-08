@@ -1,5 +1,5 @@
 # Week 3 homework: Make Blinky
-Assignment code in submodule [BlinkySchmlinky](https://github.com/tdarlic/BlinkySchmlinky/tree/10c50b6591dbdb91c094b17ef7c8818aa3ca1225)
+Assignment code in submodule :octocat: :open_file_folder: [BlinkySchmlinky](https://github.com/tdarlic/BlinkySchmlinky/tree/10c50b6591dbdb91c094b17ef7c8818aa3ca1225)
 
 ## 1. Make blinky
 
@@ -35,7 +35,7 @@ As the Disco board has one more LED I will use that one for button interrupt.
 User button on Disco board is connected to the PA0 port which is pin number 34 on MCU. 
 
 In order to have the interrupt working we first need to setup the NVIC to interrupt on that particular pin. 
-This was acomplished also trough the STM32 CubeIDE code configurator. 
+This was accomplished also trough the STM32 CubeIDE code configurator. 
 Pin name in the code configurator is PA0/WKUP and is setup as below:
 * GPIO mode: External interrupt Mode with Rising edge trigger detection
 * Pull up and Pull down disabled
@@ -63,7 +63,7 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
   }
 }
 ```
-So this function is called on GPIO interrupt and it checks is particual GPIO IRQ set and if it is then calls `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` function defined in same file.
+So this function is called on GPIO interrupt and it checks is particular GPIO IRQ set and if it is then calls `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` function defined in same file.
 This function is defined with `__weak` attribute so we can define our normal function under the same name so that function will be linked instead into the same compile unit.
 `HAL_GPIO_EXTI_Callback(int16_t GPIO_Pin)` function is defined in `stm32f4xx_it.c` which finally contains code for the interrupt:
 ```c
@@ -73,18 +73,18 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	}
 }
 ```
-It appears that button on my dev board is designed rather well as it extremely rarely causes glithces undebounced. Probably because it is debounced on the board itself by C11 100nF capacitor. 
+It appears that button on my dev board is designed rather well as it extremely rarely causes glitchces undebounced. Probably because it is debounced on the board itself by C11 100nF capacitor. 
 
 ## 3. Button debounce
-For the button debouncing I will use most primitive interrupt metod. Logic goes like this:
+For the button debouncing I will use most primitive interrupt method. Logic goes like this:
 1. Interrupt on button GPIO transition
 2. Check what was the last time this interrupt was called
-3. If sufficient time has elapsed since the last button interrupt then triger new button toggle in code
+3. If sufficient time has elapsed since the last button interrupt then trigger new button toggle in code
 4. Exit the interrupt and resume normal code execution
 
-To acomplish this following was added to the `HAL_GPIO_EXTI_Callback` function:
+To accomplish this following was added to the `HAL_GPIO_EXTI_Callback` function:
 1. Global variable `delayTime` which was set to 100, this is our setting in ms for debounce (usually 50ms in unnoticable)
-2. Local static variable `lastButtonTime` which is used to remember last time interupt was triggered
+2. Local static variable `lastButtonTime` which is used to remember last time interrupt was triggered
 
 Finally the debounce interrupt looks like this:
 ```c
@@ -102,7 +102,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 }
 ```
 
-This debounce method is primitive and in undebounced button can couse MCU to interupt multuple times this makinf the code call IRQ unnecessary. 
+This debounce method is primitive and in undebounced button can cause MCU to interrupt multiple times thus making the code call IRQ unnecessary and excessively. 
 There are several methods that could be used here to improve on the code. One is to disable this particular interrupt in the interrupt itself and start a timer who's interrupt will in turn switch back original interrupt on after it expires. 
 
 ## 4. Stepping trough the code!
@@ -110,7 +110,7 @@ Stepping trough the code can be done live using debugger or with `Ctrl`+`Click` 
 1. The code is setup in startup code in file `startup_stm32f429zitx.s`. This all happens before our code takes over
 2. After taking over from startup function `main()` in `main.c` takes over and then following functions are run
     - Initializes all interrupts, system tick, NVIC and also the flash interface with `HAL_Init()` 
-    - Configues the system clock with `SystemClock_Config()`
+    - Configures the system clock with `SystemClock_Config()`
     - Initializes all peripherals with `MX_GPIO_Init()`
     - All 3 of above functions can be found in `stm32f4xx_hal.c`. These functions in turn then call individual periperal code. For example RCC setup is done from `stm32f4xx_hal_rcc`
 3. All of the files above then call CMSIS Cortex-M1 Core Peripheral Access Layer Header File in Drivers/CMSIS folder and these files will address the particular peripherals registers individually
@@ -126,7 +126,7 @@ As described above below is description of green LED addresses from `main.h`:
 #define LD3_Pin GPIO_PIN_13
 #define LD3_GPIO_Port GPIOG
 ```
-Following register are involved in turining the LED on and off:
+Following register are involved in turning the LED on and off:
 GPIO port used in this case is `GPIOG` and the address is defined in line 1254 in `stm32f429xx.h` file
 ```c
 #define GPIOG ((GPIO_TypeDef *) GPIOG_BASE)
@@ -136,7 +136,7 @@ Individual pin address is described in higher level file `stm32f4xx_hal_gpio.h` 
 ```c
 #define GPIO_PIN_13 ((uint16_t)0x2000)
 ```
-Following registers are avilable for GPIO setup:
+Following registers are available for GPIO setup:
 * GPIO port mode register (GPIOx_MODER)
 * GPIO port output type register (GPIOx_OTYPER) (push-pull or open drain)
 * GPIO port pull-up/pull-down register
@@ -153,5 +153,5 @@ Button is defined as below
 So in order to find out the state of the button we can read the register GPIO port A input data register `(GPIOA_IDR)`
 
 ### Can you read the register directly and see the button change in a debugger or by printing out the value of the memory at the register’s address?
-This can easily be done in debugger. We can stop the executoion at any time and then read the contents of the memory at `(GPIOA_IDR)`
+This can easily be done in debugger. We can stop the execution at any time and then read the contents of the memory at `(GPIOA_IDR)`
 ![Debug screen showing input data registers](/Week3/images/debug_screen.png)
