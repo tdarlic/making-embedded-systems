@@ -76,7 +76,7 @@ It appears that button on my dev board is designed rather well as it extremely r
 
 ## 3. Button debounce
 For the button debouncing I will use most primitive interrupt metod. Logic goes like this:
-1. Interrupt on button line transition
+1. Interrupt on button GPIO transition
 2. Check what was the last time this interrupt was called
 3. If sufficient time has elapsed since the last button interrupt then triger new button toggle in code
 4. Exit the interrupt and resume normal code execution
