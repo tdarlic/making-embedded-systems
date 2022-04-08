@@ -10,7 +10,7 @@ Following setup was used to make a Blinky:
 
 STM32 Cube IDE code generator was used to create all code and minimum user code was then typed to have a working example.
 STM32 code generator generates all pin and port name aliases in _main.h_ and following aliases were used for green LED
-```
+```c
 #define LD3_Pin GPIO_PIN_13
 #define LD3_GPIO_Port GPIOG
 ```
@@ -18,7 +18,7 @@ STM32 code generator generates all pin and port name aliases in _main.h_ and fol
 Green LED is connected to the PG13 which is pin number 128 on the MCU. 
 
 Once we know that it is pretty easy to get the LED blink by just appying the HAL code directly:
-```
+```c
   while (1)
   {
 	  HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
@@ -41,12 +41,12 @@ Pin name in the code configurator is PA0/WKUP and is setup as below:
 * Next in the NVIC part of the GPIO setup the EXTI line0 external interrupt was enabled.
 * Finally, in the NVIC setup Generate IRQ handler and Call HAL handler were enabled
 PA0 port has following aliases in _main.h_:
-```
+```c
 #define B1_Pin GPIO_PIN_0
 #define B1_GPIO_Port GPIOA
 ```
 To have the interrupt working we need to have a callback implemented. This callback starts is setup by HAL in `stm32f4xx_hal_gpio.h` which defines following IRQ handler:
-```
+```c
 /**
   * @brief  This function handles EXTI interrupt request.
   * @param  GPIO_Pin Specifies the pins connected EXTI line
@@ -65,7 +65,7 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
 So this function is called on GPIO interrupt and it checks is particual GPIO IRQ set and if it is then calls `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` function defined in same file.
 This function is defined with `__weak` attribute so we can define our normal function under the same name so that function will be linked instead into the same compile unit.
 `HAL_GPIO_EXTI_Callback(int16_t GPIO_Pin)` function is defined in `stm32f4xx_it.c` which finally contains code for the interrupt:
-```
+```c
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if (GPIO_Pin == B1_Pin){
         HAL_GPIO_TogglePin(LD4_GPIO_Port, LD4_Pin);
@@ -102,5 +102,34 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 ```
 
 This debounce method is primitive and in undebounced button can couse MCU to interupt multuple times this makinf the code call IRQ unnecessary. 
-There are several method that could be used here to improve on the code. One is to disable this particular interrupt in the interrupt itself and start a timer who's interrupt will in turn switch back original interrupt on after it expires. 
+There are several methods that could be used here to improve on the code. One is to disable this particular interrupt in the interrupt itself and start a timer who's interrupt will in turn switch back original interrupt on after it expires. 
 
+## 4. Stepping trough the code!
+Stepping trough the code can be done live using debugger or with `Ctrl`+`Click` on the function names. I'll give just the short explanation here. 
+1. The code is setup in startup code in file `startup_stm32f429zitx.s`. This all happens before our code takes over
+2. After taking over from startup function `main()` in `main.c` takes over and then following functions are run
+    - Initializes all interrupts, system tick, NVIC and also the flash interface with `HAL_Init()` 
+    - Configues the system clock with `SystemClock_Config()`
+    - Initializes all peripherals with `MX_GPIO_Init()`
+    - All 3 of above functions can be found in `stm32f4xx_hal.c`. These functions in turn then call individual periperal code. For example RCC setup is done from `stm32f4xx_hal_rcc`
+    - All of the files above then call CMSIS Cortex-M1 Core Peripheral Access Layer Header File in Drivers/CMSIS folder and these files will address the particular peripherals registers individually
+    - Finally, the direct registers addresses and mapping is located in ST/STM32F4xx directory in `stm32f4xx.h`  and `stm32f429xx.h` files
+
+## 5. Further investigation
+This is short description of registers invloved in setting up the green LED
+As described above below is description of green LED addresses from `main.h`:
+```c
+#define LD3_Pin GPIO_PIN_13
+#define LD3_GPIO_Port GPIOG
+```
+Following register are invloved in turining the LED on and off:
+GPIO port used in this case is `GPIOG` and the address is defined in line 1254 in `stm32f429xx.h` file
+```c
+#define GPIOG               ((GPIO_TypeDef *) GPIOG_BASE)
+```
+
+Individual pin address is described in higher level file `stm32f4xx_hal_gpio.h` on line 98:
+```c
+#define GPIO_PIN_13                ((uint16_t)0x2000)
+```
+The pin itself is described in 
