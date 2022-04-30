@@ -16,6 +16,7 @@ The tricky part here is to load the ephemeris data into the device and make sure
 The other idea I have is to create a digital barometer using LPS28DFWTR Dual full-scale absolute barometer 
 Details of the barometer can be found on following link:
 [LPS28DFW](https://www.st.com/en/mems-and-sensors/lps28dfw.html)
+
 I've ordered several barometers and plan to make a PCB which would plug into the development board and provide
 some power and connection to barometer. I would use the screen for intitial setup and tracking. The device would
 sleep most of the time and would wake up every few minutes, take a reading of the barometer and then go back to sleep.

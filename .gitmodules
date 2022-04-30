@@ -1,3 +1,6 @@
 [submodule "Week3/BlinkySchmlinky"]
 	path = Week3/BlinkySchmlinky
 	url = https://github.com/tdarlic/BlinkySchmlinky
+[submodule "Week5/mes-console"]
+	path = Week5/mes-console
+	url = https://github.com/tdarlic/mes-console
