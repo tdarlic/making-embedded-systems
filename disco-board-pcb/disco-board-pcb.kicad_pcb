@@ -212,15 +212,15 @@
     (property "Sheetname" "")
     (path "/259c4824-dd98-47cc-a9ff-cf851d8a7ba8")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP41" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP41" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a10a497a-6574-4be8-9d6e-c399b01d348c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1185765e-1cc1-4ea9-9c2b-74ef1231e90b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff49c3c3-00e8-4090-8cae-adda59f6aa52)
     )
@@ -239,15 +239,15 @@
     (property "Sheetname" "")
     (path "/2ef25ddf-38ef-4b10-91ae-0755ec4d7dc4")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP108" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP108" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 404a4a88-b69b-4475-88b6-01a055821f4d)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e5dfb925-c670-4c77-826e-191fd3c17f0c)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 389530eb-ba48-45bc-adc9-d9be1de191ee)
     )
@@ -266,15 +266,15 @@
     (property "Sheetname" "")
     (path "/c2b7148d-ad7f-48c3-b2de-020aab2032c6")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP24" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP24" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb84b7d6-a59d-4405-95e1-85cc1aeca37f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58d7e7ab-16e6-43c6-bf8a-8b095c0393b7)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5197b87d-0a3c-4e26-a020-ad49621a838c)
     )
@@ -293,15 +293,15 @@
     (property "Sheetname" "")
     (path "/48b64512-e853-4d86-8bc0-0a1685066096")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP25" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP25" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c18a4ccc-f875-4d60-b4cf-fbd9a841ad07)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 265275ba-1782-45e9-9271-d62bc3c653e1)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 337cdd56-5b75-46cd-9bf1-3df7c4280d61)
     )
@@ -320,15 +320,15 @@
     (property "Sheetname" "")
     (path "/a1615a07-48e4-4993-a8fe-5bf583482b3c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP7" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP7" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4114a25c-e34a-4d3d-af7a-60991c6318f2)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45738f81-82d5-4481-8641-aacd6b273a7d)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2dedeaa-b930-471f-81a6-1f47cb238222)
     )
@@ -347,15 +347,15 @@
     (property "Sheetname" "")
     (path "/c4e1b66e-d66a-47d5-9f2b-4de052d5ddd8")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP88" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP88" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp edf5414a-19c6-4fd6-ab6e-a2936f6d0f2d)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2feb8322-e402-4c8e-a107-438f5bbc6917)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5a1da7c-0503-4f91-aecd-16d8b70758c3)
     )
@@ -374,15 +374,15 @@
     (property "Sheetname" "")
     (path "/4125f730-d481-4e3e-a868-20f9caa97c7f")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP45" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP45" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54632599-5546-4621-bef7-da312ecb6032)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 722afe85-bc03-4214-b9e7-7fe52361f01b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e4372b5-bacc-4a61-90c2-6824336872d4)
     )
@@ -401,15 +401,15 @@
     (property "Sheetname" "")
     (path "/107a4e91-4bfd-461a-81f4-6d5e94ad04ae")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP43" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP43" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 66377219-0cc3-43fd-9df5-d1841cc2f921)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2a18f038-4b1c-47a4-b881-9a5f5fdabd9f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f61f4d56-372d-4b1e-be84-7207599a2cfe)
     )
@@ -428,15 +428,15 @@
     (property "Sheetname" "")
     (path "/e5166023-b982-4b17-83cb-b70b5234803e")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP2" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP2" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4f400b2-9fe6-483d-bb21-5531d1cc6c8e)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c463d0fa-17ca-418a-be2c-688ea3bc242b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6af3464f-4c89-4d74-a264-24814aa36e00)
     )
@@ -455,15 +455,15 @@
     (property "Sheetname" "")
     (path "/7f5f5f15-a0f5-4a2d-9c7c-0a1cd79f5830")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP77" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP77" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4cf5956-3795-408f-932f-45dd353a6f5c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 358cfb1e-a3b5-4971-8c33-7a5f623baea6)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 086a2454-9f81-4de8-89ee-cb2506b20c73)
     )
@@ -486,11 +486,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6a4f627-ec4a-4aa8-847b-8a9a2db124aa)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 871eac75-fd1c-4539-a40e-110745c2687b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34b1dd8d-6128-4cf6-8e5f-1946b8172480)
     )
@@ -509,15 +509,15 @@
     (property "Sheetname" "")
     (path "/c8b73b73-a5ec-4d28-b3a1-0fcc4df54ebc")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP48" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP48" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2e8d994-91da-4cf8-97ac-8616a963c241)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bebaefbc-7f6b-48fa-b81f-aa9a52f1ddfe)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee62a0a5-ca18-4532-b37f-d64ae69bb2e6)
     )
@@ -536,15 +536,15 @@
     (property "Sheetname" "")
     (path "/b82037fc-2ade-40be-89a4-1aa4d8911a14")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP20" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP20" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3a612b2c-840b-44c3-a201-5c69a58bad29)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9bcd1bca-fc48-46ad-a291-925d0f403ce8)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec4fd794-bdd0-4459-8f35-3aaaad65b6b5)
     )
@@ -563,15 +563,15 @@
     (property "Sheetname" "")
     (path "/959a2221-c8e8-42dd-81e8-c8c54cae8289")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP10" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP10" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f9a8657c-650c-4dd0-8089-f51d4249e0d5)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb4739c8-08cb-49b9-8413-07cc2083bcf3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58b133bb-4cd6-4e14-a721-cfc0db7ea721)
     )
@@ -590,15 +590,15 @@
     (property "Sheetname" "")
     (path "/d1bec30d-524e-4eb5-9f1f-54133526248b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP22" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP22" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6f584e18-a85c-4080-8f28-3f59d0498b3e)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 945cae6c-e0b9-4285-8d16-67d53eb97b24)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 97dab4c9-c101-4af2-adbe-d76935042f69)
     )
@@ -617,15 +617,15 @@
     (property "Sheetname" "")
     (path "/103f5c8d-5146-4e94-b00f-430490c6be8d")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP29" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP29" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffb8c0e8-9dfe-4274-8539-d1cff1b23e67)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 423282d9-68b2-4afe-84c2-12778be036be)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e487597b-4013-46d0-b905-7a7fb268fa95)
     )
@@ -644,15 +644,15 @@
     (property "Sheetname" "")
     (path "/1c39ce2e-ceb8-4c87-ae8c-fcd46ffda5a3")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP15" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP15" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 225ec670-19b5-4800-a682-4c66c14129fe)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 78e08715-ea04-4d7f-899e-0cb9b3c39268)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a6f4998-faf2-46e4-9345-4d1bcd9136ef)
     )
@@ -671,15 +671,15 @@
     (property "Sheetname" "")
     (path "/14498971-f419-46db-9d8f-505ef46a3947")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP74" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP74" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 367c4dbb-c448-4b8d-a516-60db195fdef8)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f5ad2f3-038f-439d-bf94-bea5787d7c4e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa3c1b7a-70c2-4481-8747-279d21b5fa3e)
     )
@@ -698,15 +698,15 @@
     (property "Sheetname" "")
     (path "/2502ef3e-269d-46d3-9b8e-ed2bd1b18959")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP57" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP57" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1794d864-9391-4410-b66d-28d365d3e12b)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70bbee08-3e14-4978-bada-70486c21464f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d07b49cf-efee-49ce-af20-32c791a07650)
     )
@@ -725,15 +725,15 @@
     (property "Sheetname" "")
     (path "/cf7f97a8-7233-4900-b89c-b1858d3a6959")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP14" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP14" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 366dc479-b41f-4d79-a22f-edf7737589b3)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 289aaf3a-5b0b-4c49-9eb9-917e2bf103b2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 53266650-dd9a-4443-a429-f62f3e9790cf)
     )
@@ -752,15 +752,15 @@
     (property "Sheetname" "")
     (path "/182348ca-abe1-4b53-b974-d0d9cf6ab4ed")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP73" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP73" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f69897a-8bdd-4e9d-a172-61e31182f38f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39ee540e-c672-4c6d-b30e-118549a187ed)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d294b86e-cd35-4010-875a-ec6f03315331)
     )
@@ -779,15 +779,15 @@
     (property "Sheetname" "")
     (path "/1148b606-1d23-4f3d-9e74-39201588f5fb")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP18" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP18" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f7e9741-4de1-4215-b74a-3c3c981ce03c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a3a1b8f-5e0b-4b70-8017-7546c5a50b22)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ddf25d0-5668-407a-bdc8-6dadc49016bf)
     )
@@ -806,15 +806,15 @@
     (property "Sheetname" "")
     (path "/72572dfe-519c-4174-ba2f-d5558b30340e")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP3" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP3" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 221cd7b4-3062-40d3-963f-4b82d07e6385)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aba1e9aa-68a3-403b-adff-dfbd6b30a456)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b31a114e-38b5-48db-a983-0f2fe9b1941c)
     )
@@ -833,15 +833,15 @@
     (property "Sheetname" "")
     (path "/39d780c1-69e2-4ff5-a91d-bd74ee10947d")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP70" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP70" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca77d9bd-0115-465e-aea0-bfae819615b7)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c85db489-83e6-45cb-8057-a7cfde67bf5a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b9480791-820b-4b83-8b13-e83c85e5253a)
     )
@@ -860,15 +860,15 @@
     (property "Sheetname" "")
     (path "/f6b1a042-6936-4a5c-8521-719cc989c391")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP12" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP12" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 950e2daf-088c-4b96-82a0-c2571400d24a)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ddb8fbb-2b4c-4610-b37f-ca2273b0c707)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 967cd516-ba51-47fb-9391-fdc3a78bba4b)
     )
@@ -887,15 +887,15 @@
     (property "Sheetname" "")
     (path "/d28dc70d-ed96-4b66-aebe-06c864e577c2")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP114" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP114" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb4a3ace-4301-414d-868a-bc666e025ee7)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05dd5cea-f8b1-40bf-854d-45ff0dd4f724)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e59a4802-3a01-4b0f-adca-5755a5e7559d)
     )
@@ -914,15 +914,15 @@
     (property "Sheetname" "")
     (path "/c1ca7b6c-1a6f-450f-bcb3-712271a9b41c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP23" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP23" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 315f61f5-1272-4bd8-9015-a83bb85bcd12)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8482ec43-1c30-47af-93fe-2c54ada9c0c7)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1976c4a9-bcbb-4e8d-908b-6a937a06bec2)
     )
@@ -941,15 +941,15 @@
     (property "Sheetname" "")
     (path "/5a304ed5-f4ef-44f3-a540-3031f5a936a6")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP52" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP52" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ea3c5c04-6212-49ba-8158-d59262e3e48a)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2fa081c9-3a44-47ec-9872-a4d2fae0941c)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2be09b69-4734-4d5f-b87e-7fed4c0f422d)
     )
@@ -968,15 +968,15 @@
     (property "Sheetname" "")
     (path "/1aee9fa5-9a30-4db1-a303-c461290b13ab")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP35" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP35" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cbdb0aa1-0ec8-4396-978c-46dd1d8b67c0)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9fc574b9-be23-4125-bf11-271e0544beb2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bbbb10a7-62b7-4e9e-975d-0453cb6c31ab)
     )
@@ -995,15 +995,15 @@
     (property "Sheetname" "")
     (path "/6407444b-a7d3-45af-978b-c85235176df7")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP71" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP71" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a84f6dd-ef5b-44da-b8e0-e7ff270958bd)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6784592-6d94-48df-9f4a-38bf00d69d00)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e059cb49-79aa-4ec1-89d5-5c34a8b3ece4)
     )
@@ -1022,15 +1022,15 @@
     (property "Sheetname" "")
     (path "/c621cba8-271f-4d00-81c5-97d80535b4f2")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP113" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP113" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b0791fe-64ee-4d0b-9103-a60f7662fe51)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc1fcf17-f8c8-4054-880f-a8799d66c479)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be2dffcc-2d36-41bd-a04c-659ab397186a)
     )
@@ -1049,15 +1049,15 @@
     (property "Sheetname" "")
     (path "/2c3f1a70-eafa-40c0-9a43-639e9d7087a8")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP85" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP85" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 02360ebe-54ce-45f0-871b-814375425a51)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 992e1d9c-c750-420f-8072-fc193c33a87f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34eb63e1-a014-4170-8be2-2809327fbf76)
     )
@@ -1076,15 +1076,15 @@
     (property "Sheetname" "")
     (path "/c47557f0-7a55-4ea9-8506-578b3f2db74c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP21" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP21" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21d48a0f-f9c8-4f45-8a42-54767a39b5fc)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8064550f-6c17-412c-9dbb-e5d8acfd6b2e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e833351-1786-4baf-9ea2-0f772f175b17)
     )
@@ -1103,15 +1103,15 @@
     (property "Sheetname" "")
     (path "/8685ab4c-a928-4cd2-94b7-b60b0c4d53c5")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP33" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP33" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6aa3ee78-1566-4e71-97f8-9fe688c3482d)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f386a516-61eb-4c3c-a395-e18a2a609125)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef5f40ec-5922-4cfa-9a87-103f20ad49cb)
     )
@@ -1130,15 +1130,15 @@
     (property "Sheetname" "")
     (path "/c6d03e94-8cab-483e-badc-87ab4c1da5ee")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP53" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP53" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 853aef5b-164b-4c63-9e7e-458b7902be60)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d1a7dfd-d247-4a34-98be-4dc4e61eb54e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 28536d25-9a72-4c23-8246-b3198ba1e634)
     )
@@ -1157,15 +1157,15 @@
     (property "Sheetname" "")
     (path "/a8fa33f1-d3d9-4bef-8223-a6340797e209")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP31" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP31" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 50f62d90-2c08-4510-a2b8-06ef53681daf)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dac319af-4c4a-42c2-957b-c2e49a51f67a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a216f1ba-033a-41d4-84f4-70fba664f7ff)
     )
@@ -1184,15 +1184,15 @@
     (property "Sheetname" "")
     (path "/53a64ecc-be79-4471-ae2b-4f68fb144550")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP109" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP109" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ea3d489-c4b9-4514-8f0a-0f0dc54e5bec)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c664a8d1-d835-4404-9789-572318a0fa39)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 910dd458-9011-49ed-b738-68356870b1c8)
     )
@@ -1211,15 +1211,15 @@
     (property "Sheetname" "")
     (path "/c6e98043-4b91-4861-a24b-3387237b461f")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP99" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP99" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf156187-2e62-44f2-a254-e6b8d833a3c4)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3efc340e-0720-4028-860b-f6f8de9e90e9)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5cc4a6af-039d-49bb-af0c-377db5156952)
     )
@@ -1238,15 +1238,15 @@
     (property "Sheetname" "")
     (path "/4b669ce9-a58a-4d79-9bb6-61fa6b4dca58")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP47" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP47" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b0ad19f3-1683-451d-bd12-d9a93b77744a)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f75c3487-337a-46fb-98c0-58598e4e7aac)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 31aa3f90-63ac-481a-b175-e3ebd7f9933a)
     )
@@ -1265,15 +1265,15 @@
     (property "Sheetname" "")
     (path "/b674edd8-9634-4d06-bee4-86bcb431c229")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP98" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP98" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 994f4485-fa0c-4abe-b5fc-f9b5290b170f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24c9561a-efda-41af-870a-3be7fd341a8d)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eea6153e-6e93-4e1e-9c0b-6c0873bd2ee9)
     )
@@ -1292,15 +1292,15 @@
     (property "Sheetname" "")
     (path "/60feb856-d709-40e9-ae53-7fcad0b196c5")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP59" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP59" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c60c48cb-cb54-42f8-9e6f-33c01780c1e7)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a681a3c1-1ba5-4738-8d66-ce5405eac64b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a467b390-9fe2-4e09-ac01-379d3cde3420)
     )
@@ -1319,15 +1319,15 @@
     (property "Sheetname" "")
     (path "/e4fb9c35-2e1c-440b-a9df-33b2a65ccbff")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP107" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP107" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 61f4a7e0-f697-4fc8-a367-d4376647ab73)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58ce6259-96b8-4d13-9781-2147a9e432bd)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22f81344-4079-40ef-a3e2-98abbd682b91)
     )
@@ -1346,15 +1346,15 @@
     (property "Sheetname" "")
     (path "/2c63c48d-f4bb-4272-ac42-8e8bcefcb0a7")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP72" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP72" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc6e9173-54d6-47a3-8c11-ddcb5f0a1663)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d66f4d98-6e4a-42b3-8fe3-edae4a973283)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2244e6bd-94fb-44af-af34-5aa544133cf3)
     )
@@ -1373,15 +1373,15 @@
     (property "Sheetname" "")
     (path "/79ed92e8-211d-4cac-bc24-36f699121465")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP34" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP34" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63884643-bc52-4a15-8693-297c6600674f)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 37d1e339-1198-4cb9-ae31-e8423c5bfe7e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24fe891f-120c-47ed-b781-1f264320e2c6)
     )
@@ -1400,15 +1400,15 @@
     (property "Sheetname" "")
     (path "/bce7a72a-9221-4f90-8241-735d098aa22c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP65" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP65" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d2fbda3-d7a1-423f-8321-e1ca2663efc8)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15edf11f-4426-4eef-84f5-5b9f98201a2e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 817a95fc-149c-479e-983b-532b6474d513)
     )
@@ -1427,15 +1427,15 @@
     (property "Sheetname" "")
     (path "/e4f1c790-6c09-47e7-a38d-fe8c35930158")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP8" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP8" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7eb670c-0523-420c-be97-db5cb14a021c)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9777ff65-93bb-4b70-af34-7c521b230ba1)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbfd5d57-689c-4de6-8076-8ddc8969c229)
     )
@@ -1454,15 +1454,15 @@
     (property "Sheetname" "")
     (path "/f19c1194-c706-4bca-b2c5-d1591d62f675")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP94" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP94" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f919b5ec-25b4-48f9-b0dc-4a6207e929d5)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e2e1ef8-7505-48d0-aa3d-bf1757f45c72)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12bce8b0-551f-457e-8f5f-b1585d51d2cc)
     )
@@ -1481,15 +1481,15 @@
     (property "Sheetname" "")
     (path "/e1554013-5e61-4e0a-8dea-887b5a1d66db")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP78" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP78" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0daaf0fb-e49f-4a43-ab1f-3c046531ff50)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3de6f70-692c-4258-acf7-a5c04917ba47)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5f78328-c7aa-4d70-92fd-6a2b2996d57c)
     )
@@ -1508,15 +1508,15 @@
     (property "Sheetname" "")
     (path "/97ceb783-5be0-4234-891e-8c9008aecc49")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP80" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP80" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2466f19-1a13-476d-9d89-4f67345e6afb)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3aaf1819-8478-4f30-b4e7-7f848257e687)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b8bebe4-334e-4e62-88a1-2803acff7283)
     )
@@ -1535,15 +1535,15 @@
     (property "Sheetname" "")
     (path "/9617eba2-3269-467b-995e-0bb2fb8b0047")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP68" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP68" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21237fca-e3d9-4fb2-a3cf-fd2f0b069240)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80467dac-8f73-4804-9844-9e3307f65114)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92a3bfd2-8978-401d-817b-41eb81ed32b7)
     )
@@ -1562,15 +1562,15 @@
     (property "Sheetname" "")
     (path "/e70d623a-6d68-460d-a096-f04c916c79f6")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP19" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP19" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c82c362-e617-4ff1-8059-ac8fe2964b03)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2114f4f-752e-4988-a766-e9296a66e14f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c483d51c-08ea-4922-8441-7cc571613982)
     )
@@ -1589,15 +1589,15 @@
     (property "Sheetname" "")
     (path "/6a65803c-7d29-4ee6-b8e7-086642077a14")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP75" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP75" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f10a3bdc-a680-4ad0-b7bb-f70a0f874e27)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63877e0f-4a0d-47ad-929f-15d31232525f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 59287778-53d9-41bb-ab1d-a65d84059d77)
     )
@@ -1616,15 +1616,15 @@
     (property "Sheetname" "")
     (path "/22dc65b7-5190-474c-9f1d-7b12abb7eed4")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP119" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP119" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e4859220-e596-4c2a-9e5e-afe23ae620ba)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 661be7e7-5b28-4aaf-ad04-7dbc1f9aeed1)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c2747616-e4f3-4907-8fc1-ffbdd7048729)
     )
@@ -1643,15 +1643,15 @@
     (property "Sheetname" "")
     (path "/5ac54e80-5a88-43af-995c-0597d6a9735b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP38" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP38" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp df6d8ae2-8768-48e1-9844-8e2d1971c1f9)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aecb40e3-0801-42ee-84a6-d599067b60f0)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 44a489a4-0695-4870-a1c7-70bee333571a)
     )
@@ -1670,15 +1670,15 @@
     (property "Sheetname" "")
     (path "/d8c19903-1646-4224-9102-3e9ac84eb8d9")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP105" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP105" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b890c7b-0a61-4a9f-b794-d2c94275a0fb)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a4aabc0-3c02-4505-b61f-1aeaeec3a7a4)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47e76c30-50dc-4c7d-8fd3-38e942a022ec)
     )
@@ -1697,15 +1697,15 @@
     (property "Sheetname" "")
     (path "/e7a4c0c6-16d0-4bda-80d6-9dba8868baf6")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP67" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP67" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 512e2b64-41bf-4091-9e5f-8b838b2b2d3a)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08b75737-ad38-4a89-9aff-7f2550c0d0d2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40130dd5-2657-4415-a1cd-257a9ac59c24)
     )
@@ -1724,15 +1724,15 @@
     (property "Sheetname" "")
     (path "/de3a7922-d2c2-4ccb-bb91-0ea790900ef8")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP62" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP62" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 30aebb82-2001-4366-8e77-363df60412b0)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4d501b38-0918-4b5e-813a-19a13b325031)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3395bcc0-6007-48fe-84d6-fb3456311090)
     )
@@ -1751,15 +1751,15 @@
     (property "Sheetname" "")
     (path "/61cbfbb5-ff6d-4e84-b1fc-a085acb7fdb2")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP66" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP66" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0287a225-0375-4790-b792-8d1685d1500b)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b59659f4-1fb5-42df-9492-11e9e3078f13)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89d54cd9-7a7f-4414-80ee-552fa953eacd)
     )
@@ -1778,15 +1778,15 @@
     (property "Sheetname" "")
     (path "/8c10971e-17ab-4eb1-8f2e-0d34fac7478a")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP79" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP79" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8cd94557-d8c6-47d9-b957-1fd1be02747c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ebf6e87-ed41-40e5-9fad-c2520cc272d2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64a383ef-c94a-49c7-953d-b16f0191267b)
     )
@@ -1805,15 +1805,15 @@
     (property "Sheetname" "")
     (path "/d6c25799-91e4-4815-8db6-a42c2a60d043")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP86" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP86" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99995ddb-62f8-4bf1-81c8-fa895a96e9b2)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0198caad-484e-4013-9efe-0144e4999661)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79ac6179-4b91-49a2-a064-19e790069ab1)
     )
@@ -1832,15 +1832,15 @@
     (property "Sheetname" "")
     (path "/ce26ab47-8114-466b-9cea-2a3ef1f132ab")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP91" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP91" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8cc4e9d8-68a4-4029-8bfa-cca3fbbf2d91)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0d5841c-34cf-409c-a1ed-f6d4e6694b29)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5746ffac-fb3a-438b-a51b-74f164bd1e7e)
     )
@@ -1859,15 +1859,15 @@
     (property "Sheetname" "")
     (path "/1d378561-36f8-49ad-827b-d8656f77da27")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP56" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP56" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40a5d201-946d-4a21-9ff1-8aa746730ddb)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 110bf48b-3409-46aa-ad52-fffc37cfe4a7)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2219caaf-3379-4ecc-b006-9ae2ef767290)
     )
@@ -1886,15 +1886,15 @@
     (property "Sheetname" "")
     (path "/a2c25e08-3cfc-43c3-8c24-ab4b269eed9c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP42" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP42" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffb94236-bb87-4e90-8dde-967e4d2bacc0)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63b22f13-f2e2-49ba-8dac-3a721f95237e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2348af6-a8c6-4f09-a01e-77b06c431940)
     )
@@ -1913,15 +1913,15 @@
     (property "Sheetname" "")
     (path "/ee823631-4497-40fe-8757-33748153089c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP39" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP39" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b099db0f-d828-406b-b0d2-df37bcbaa9e7)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77e9fd34-a1b2-41b8-ac2c-777fc7ed109f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6d50292-5aba-4b8d-9e0f-b072f3d0e039)
     )
@@ -1940,15 +1940,15 @@
     (property "Sheetname" "")
     (path "/5d45770e-3862-41be-b106-b4cd12aad45e")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP84" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP84" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c79782f7-0ca3-4740-8f13-1393872b3bdd)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 16ae8cc4-94fd-47ed-9f66-796d07f16ae9)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1a67747-0d61-4a09-82e9-832811c12db4)
     )
@@ -1967,15 +1967,15 @@
     (property "Sheetname" "")
     (path "/b6002434-d416-41aa-b927-0f707adf5f88")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP63" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP63" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21e3898c-442d-4c9a-aae8-1fa05b9711c8)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12445241-d136-4677-9973-6abc74b1861e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 28f216f8-e1d0-4cfb-b939-a7afbf0b3db0)
     )
@@ -1994,15 +1994,15 @@
     (property "Sheetname" "")
     (path "/27338c77-8f01-45fd-ab94-b9f0a90536ee")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP97" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP97" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a223c6fe-869f-489f-80bb-1fbaf1b91543)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c257b6f3-0b31-41c2-a207-96d193b47192)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 44330fd6-a1e2-4414-b86d-ce3ee73d1af9)
     )
@@ -2021,15 +2021,15 @@
     (property "Sheetname" "")
     (path "/92ce7aef-4f7d-4a59-b30b-c9556d468018")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP81" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP81" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d8a06a77-42a3-4e3a-9cad-d7374e555410)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 17ef7203-1065-4c1a-abfb-cc57b0b5d28e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aaf7f667-7064-4d53-a507-d2982b3c695f)
     )
@@ -2048,15 +2048,15 @@
     (property "Sheetname" "")
     (path "/732ee20c-e70b-4b5e-a113-05e73902637a")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP106" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP106" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89a3d38d-b3f1-4fc2-93c8-b10f274f8642)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eaae7e79-d7b6-4c7b-a353-2aacafc9e4e7)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8e02e4f9-b5c2-4e5b-9312-8ae56846776e)
     )
@@ -2075,15 +2075,15 @@
     (property "Sheetname" "")
     (path "/d78d8ce9-72a5-4a31-8b88-f6bc03dabc44")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP54" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP54" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp efe8c495-4414-4141-8aa9-cb6693cdd366)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b28ef0e5-d86b-4c78-9e49-d8609a9440f4)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d84fd69-ddf2-4806-ad15-948c3676d5e9)
     )
@@ -2102,15 +2102,15 @@
     (property "Sheetname" "")
     (path "/769ede10-46c7-4376-9816-71e42f39a3ef")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP4" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP4" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8185404-56ab-4803-903a-632eb9211cd8)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 096c3c04-7acd-4e5f-a3d6-4f6a3c77f638)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c05b21e6-8970-4bee-ad1f-8c8be4216f43)
     )
@@ -2129,15 +2129,15 @@
     (property "Sheetname" "")
     (path "/d1c2a92f-7b0d-4eb4-a925-7b8ba15d15ea")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP95" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP95" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22731df7-f14d-4fa5-9880-4a92a8f36170)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42bd0472-424d-4003-975b-c528fe0216b3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1905859-07e2-44a6-ae5f-f38861e5729b)
     )
@@ -2156,15 +2156,15 @@
     (property "Sheetname" "")
     (path "/a8aa3cdb-0fd0-487d-948b-aec8e30e22ca")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP60" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP60" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a0e52e0-25a3-49bf-8344-fb4563d86b37)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6f955e5f-e7c6-4165-aa59-cda62f6480d1)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90df6561-094b-4bc4-9cf1-84141e3c495f)
     )
@@ -2183,15 +2183,15 @@
     (property "Sheetname" "")
     (path "/bb537edd-3c16-40fb-8d9b-b1d296c846ed")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP64" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP64" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 767fbb39-3013-4d1b-ba68-95f0cba0c81d)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e2d89a6-fcaf-40ab-9c0c-c08bb20195df)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf731740-e483-4abe-af25-2767457c0c95)
     )
@@ -2210,15 +2210,15 @@
     (property "Sheetname" "")
     (path "/26968093-956b-4a06-970a-46908750989e")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP90" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP90" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c63dd4f1-bbe6-4957-9f5e-d9071e054bf7)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp efa32f19-92ff-41f7-a6dd-1a35cd8b4f02)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19b61c8f-388e-4f7f-aed3-a86f71faaadf)
     )
@@ -2237,15 +2237,15 @@
     (property "Sheetname" "")
     (path "/41dc36b7-1cee-4319-b915-917ce55c1eea")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP5" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP5" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a893d20f-7eae-46d4-a6f0-bfe8b53f77f7)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ec6a0d5-772c-4343-a42b-fa02087a80e4)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c5dd5c5-2aaa-4cdd-b180-345cad00ad44)
     )
@@ -2264,15 +2264,15 @@
     (property "Sheetname" "")
     (path "/7d2f57f8-6459-4049-b49a-a290c3640d94")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP50" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP50" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7108059a-1068-47ed-8caa-26723b393810)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70c9b0e7-a468-4ed2-84aa-c2547a7e39b0)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4134f92b-6169-49e2-9145-920c6d2bc509)
     )
@@ -2291,15 +2291,15 @@
     (property "Sheetname" "")
     (path "/a1c91879-7e9b-4397-9172-cd3b89b92caa")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP27" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP27" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67791266-c25c-4578-957d-f3b6cbc78542)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8d1bafff-05af-436c-9d8b-98c7c9d796c8)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a931078e-eeb2-4ba9-918e-4f8ce23caec4)
     )
@@ -2318,15 +2318,15 @@
     (property "Sheetname" "")
     (path "/e3649d36-97ab-47c0-bd6f-c160a2bec681")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP17" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP17" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4d52bca-f336-4d43-8db7-321b36c04ada)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6b63accd-bde0-4d75-bff0-6539dc90513b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a426302-d709-495e-8a44-5160429c60da)
     )
@@ -2345,15 +2345,15 @@
     (property "Sheetname" "")
     (path "/8305b651-f133-4bc2-91c4-e094706383d0")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP83" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP83" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc74d25f-0298-4b77-8141-927b7394967d)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 38445340-ba02-4fd3-b7f7-933ab917da34)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3233e088-3fb4-4d0d-ac2c-ab0099ec1795)
     )
@@ -2372,15 +2372,15 @@
     (property "Sheetname" "")
     (path "/b9534b8a-f21d-4f96-8de5-b36b1dbca803")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP96" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP96" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc481c60-acac-493b-bae1-27fb0db7b1b9)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f782730b-6b41-473c-ba27-22e6c3fe10a8)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e06fa865-8b6a-4074-94ca-0024d00777dd)
     )
@@ -2399,15 +2399,15 @@
     (property "Sheetname" "")
     (path "/4da9b1b9-3c16-42a7-a415-4c0f222cba0f")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP44" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP44" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7edc3b03-323a-4deb-9627-546ce7f07ddb)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f399624-ed5e-4416-8f2f-d30920c35de8)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d5ec5db-8870-4d8e-be13-05758382b5a3)
     )
@@ -2426,15 +2426,15 @@
     (property "Sheetname" "")
     (path "/df656c7d-fb0e-4004-ab80-0726491f7afc")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP40" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP40" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0444f874-c4a7-47b2-8476-25814e29efdd)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 226a16ee-963a-4e39-a7b5-e3fd92e3acb6)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39ca8ac1-d7f6-4a5c-b79b-423b26dbd8e9)
     )
@@ -2453,15 +2453,15 @@
     (property "Sheetname" "")
     (path "/d87b2826-a46a-4e2e-9558-79f84aaeffc4")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP111" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP111" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3648f6cd-78d7-451c-8e91-c30d3fe0a177)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d197da5-4903-4da5-ae20-a5a6a9fe6d48)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa358e2d-fe6d-4228-b67c-8710a83f5073)
     )
@@ -2480,15 +2480,15 @@
     (property "Sheetname" "")
     (path "/dce84625-db1a-4f05-9674-347d0496d26a")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP102" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP102" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93fcd27c-2b85-4e68-a93e-80a404c0ec3e)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a3e496c-2352-4161-a81b-70be972f2db3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee34b20e-e528-47e0-8b0d-15470ae4cece)
     )
@@ -2507,15 +2507,15 @@
     (property "Sheetname" "")
     (path "/f7732486-e0da-4a71-bea8-62f02ebe5989")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP87" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP87" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf727c4f-2923-4003-897a-dfc1af67ef9c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f4662e76-7fb5-42c6-aa0b-be7833e0f73a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 543b110e-fce2-4e6c-8d57-e099dfd01fde)
     )
@@ -2534,15 +2534,15 @@
     (property "Sheetname" "")
     (path "/075db11b-25b9-4a17-a6be-075b73148b35")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP112" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP112" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c919cd46-513c-4262-91be-cc68856aa258)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62477758-0b85-42ba-a8d4-9673a38a1e4a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5cf5d054-3cd7-4290-a508-050eac0fc1c5)
     )
@@ -2561,15 +2561,15 @@
     (property "Sheetname" "")
     (path "/b438029c-7395-4f2a-9621-e9ce3b768924")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP16" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP16" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2109825f-7af3-46ed-a3fe-b2a57ad3aaee)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64dcdaed-92da-4395-be68-a3179abad0f7)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a850b4ee-b67f-4358-bb95-c02a291f8f74)
     )
@@ -2588,15 +2588,15 @@
     (property "Sheetname" "")
     (path "/dc6bcd2d-e15f-4bc1-80de-53f664208b5f")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP11" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP11" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 205bd29a-7de8-48db-b3f6-3c892163322f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2945316a-0f60-47aa-b8fd-9a7156d073a3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fcd72a0f-57b5-478a-9399-a63b9075debc)
     )
@@ -2615,15 +2615,15 @@
     (property "Sheetname" "")
     (path "/0ce9d6a5-dcfb-49b7-baeb-48f996825835")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP103" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP103" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12beed92-db0e-4270-93a4-f04e7006aac7)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e922607a-9732-4676-8408-cf5167800e1b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c070c40-8fa0-4498-a688-735cf25d1c65)
     )
@@ -2642,15 +2642,15 @@
     (property "Sheetname" "")
     (path "/e823d426-bd7c-469b-9355-d71c6b1e7ea1")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP110" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP110" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0cbabe3a-5ba9-4736-8e0c-bd04c2675aa8)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce7d3cbd-054e-4f9f-9fde-293e8296ed7d)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3dffd6c-edb5-4d28-afee-ed439da5145f)
     )
@@ -2669,15 +2669,15 @@
     (property "Sheetname" "")
     (path "/d8df0021-cff5-4caa-88ea-a9dc702fdd8b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP100" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP100" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cba75168-e9a3-4263-b517-e5006eed17ac)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55389c91-2f21-4f11-90dd-9028ab1449e6)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e85bdb0-b952-4d61-9c1d-81b1cebe0558)
     )
@@ -2696,15 +2696,15 @@
     (property "Sheetname" "")
     (path "/17a2b041-e484-4193-a958-476f05e43ab6")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP36" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP36" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dcd13c94-77b4-4d98-bc6b-c3648a5e4727)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73ced08c-4446-4874-8d2d-97f94a752be3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 239d7456-12c1-459f-b1df-7742e2d18a25)
     )
@@ -2723,15 +2723,15 @@
     (property "Sheetname" "")
     (path "/c7a1d597-b6c5-4623-8f03-ae9c4dfc995d")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP30" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP30" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdc1dc8f-51ac-4661-9533-fd832aa7e0ab)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14e3f0e1-6c3e-4aaa-8ce4-3fdcad4e5c72)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6b4ed813-2ce1-4343-a11c-93c825e8d7f5)
     )
@@ -2750,15 +2750,15 @@
     (property "Sheetname" "")
     (path "/7bda98b1-24a7-460c-a706-0a7d96e324cb")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP117" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP117" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 140939b9-b997-42ab-b12f-8e705d707b1f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 832d86b4-dd79-48bd-ad67-bc7d9d2e8c8a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a96e02a1-fc0a-402a-b59d-ff4e855b17e5)
     )
@@ -2777,15 +2777,15 @@
     (property "Sheetname" "")
     (path "/e15e9413-11b7-4ab6-a3fa-38068210679b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP93" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP93" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f53a85d0-0ba1-47b3-849e-0e00f5568c8f)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ee7ee72-52f2-486a-b7c7-92df88a056c2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6a88c90-b57b-4888-9be7-86a27eae7474)
     )
@@ -2804,15 +2804,15 @@
     (property "Sheetname" "")
     (path "/dc3a301b-c24c-49f5-92b9-c41ad7ef71a5")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP58" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP58" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65d47215-0fcb-49eb-acf8-16367e1a2b49)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8d31ee6d-49c0-4a47-87f3-bdc5d0b5897a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b94019ac-b09e-4501-81aa-ce18bf66d39f)
     )
@@ -2831,15 +2831,15 @@
     (property "Sheetname" "")
     (path "/9af6b445-edb1-4d99-bee8-2efc62cdcb1b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP76" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP76" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b50410a6-1093-4680-a83d-041884df45b8)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13b4732d-460f-4636-a45c-8b2e1dfbf73b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07adb1c5-9171-425f-9c93-c3deee40237e)
     )
@@ -2858,15 +2858,15 @@
     (property "Sheetname" "")
     (path "/0751a9b1-065c-4fae-bb29-488286085cac")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP120" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP120" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 009c6106-4627-4b0e-9151-ab009180b938)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba6c1621-a4f9-4e7e-bb04-5adfe8762bb3)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f1cfd4b-05e4-4464-87b4-2a5f231cc9c7)
     )
@@ -2885,15 +2885,15 @@
     (property "Sheetname" "")
     (path "/98dfc96b-1e6a-43ce-8a41-2d4f0e2e4351")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP115" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP115" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8bd1455-2355-4597-ba6a-8a9ea5ee5aad)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 868d9d79-0762-4fca-9210-0b3067bd4d58)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a996d93d-06c4-4433-b13d-83fd3cd8c50b)
     )
@@ -2912,15 +2912,15 @@
     (property "Sheetname" "")
     (path "/fae1ebf7-b2ab-49b6-90e1-3ae07e99401e")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP46" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP46" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ea4b15e1-284a-448c-8467-631c51c6270a)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8cd09727-600d-43d9-ab25-7371764399bb)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b51a1ad-b6d0-4a0b-96ad-d1fcd0309201)
     )
@@ -2939,15 +2939,15 @@
     (property "Sheetname" "")
     (path "/4e172cd3-ae30-49d8-aa7a-0c18792e75d4")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP26" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP26" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be0b5d78-18d8-4b34-9a29-cd7a3503eaae)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1e245497-5e48-474c-bec8-42598bd3a210)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1806f646-8e7f-459e-968b-f083b5593163)
     )
@@ -2966,15 +2966,15 @@
     (property "Sheetname" "")
     (path "/8dd24d8a-34b3-4558-acb9-52dc00579daa")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP61" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP61" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45bde7f4-d45f-47d8-bbd2-a88acc59c70b)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3116db5a-cac1-447a-aaf5-da61645cb94d)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e888396-ee8b-4f19-996e-37f89e17170a)
     )
@@ -2993,15 +2993,15 @@
     (property "Sheetname" "")
     (path "/7c455532-b400-4ab8-9556-3f144a3be368")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP89" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP89" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffe2a613-d2bd-4798-8d41-7429810d185c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 450985b8-e046-494a-81c3-6668d059a241)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b5c84ba9-4542-44b6-a78c-54d765426272)
     )
@@ -3020,15 +3020,15 @@
     (property "Sheetname" "")
     (path "/ae38d168-9943-4034-8c15-0a7871359dbb")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP37" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP37" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54f49024-50d6-4606-820f-b69f3f55370b)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46f03555-eab2-4c87-9c65-80a62f512e19)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 66e15f46-fe1d-452d-a0e2-cde027573669)
     )
@@ -3047,15 +3047,15 @@
     (property "Sheetname" "")
     (path "/ca189b23-e25d-406e-95a0-fdc00ad99676")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP69" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP69" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dbd336dd-862b-488f-825f-e75a722816dc)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f38cf412-484e-4e70-9e5a-5301b8886434)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b27ea491-6171-4e2c-8b0a-5c2d1bf95dec)
     )
@@ -3074,15 +3074,15 @@
     (property "Sheetname" "")
     (path "/67fa25b7-8938-4e02-b018-fbe79bbae841")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP49" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP49" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 56a17647-a472-4234-aac9-d015df061b25)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fd8fd5a-4a3e-478a-bb0a-18a8419aab7d)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2321e83b-9aa2-43ef-9fdf-772904f290ab)
     )
@@ -3101,15 +3101,15 @@
     (property "Sheetname" "")
     (path "/2ea26273-0e10-453f-8ad8-ef5dd6b7474a")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP51" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP51" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b917d77-625d-4ac9-a830-34ebde29e385)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7670ee57-0f24-4d8a-8319-564a051c88d0)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11806093-d8e4-4f2b-aba1-0e912f1aa9b8)
     )
@@ -3132,7 +3132,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 793278f4-f05b-44cb-bf47-7741ee386be4)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faaa22f1-d97b-4f47-8f46-0ad50081d813)
     )
@@ -3155,15 +3155,15 @@
     (property "Sheetname" "")
     (path "/33a3b751-2870-4578-a18d-50573a9980a9")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP101" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP101" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c87d46d-0403-42b1-8c7c-7eba0c4ec871)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 139320a3-2fa5-4e9b-9b08-351360b34503)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 95b173a4-cb94-4659-bc7d-64f77e5d5a14)
     )
@@ -3182,15 +3182,15 @@
     (property "Sheetname" "")
     (path "/2f0527c1-68c6-445d-b637-9b602b608bcb")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP9" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP9" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47813334-a4bb-4744-840e-5ba19633e1ee)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a4ed957b-ce59-491f-9816-187b237cdc93)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 09ee3acc-f24b-43b1-b2d1-dab23ff7f90b)
     )
@@ -3209,15 +3209,15 @@
     (property "Sheetname" "")
     (path "/0ae0f36e-280c-4631-b17d-b390fe64cedc")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP28" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP28" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3533b37-3d5b-4774-8333-bb25d764fa6f)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c30b7020-ed77-4bf9-8541-023e28042aea)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c04cd18a-ca82-4b6d-9e7f-ace60d2cbf8c)
     )
@@ -3236,15 +3236,15 @@
     (property "Sheetname" "")
     (path "/0f82ccac-a46a-4139-a70a-82d6da1bd41b")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP116" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP116" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81f59a6a-2819-4698-935b-7103dcb97256)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c02cfa0d-b750-4c37-b350-96ef3aa313b2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ef0fcb4-db60-4b39-afb3-b2a408e28940)
     )
@@ -3263,15 +3263,15 @@
     (property "Sheetname" "")
     (path "/9f7c7d67-d449-4223-b45d-6874d8464c28")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP104" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP104" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67dcff45-5437-4432-8697-14e28ad8876b)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c5ed3a8-3cfb-440c-be40-437d0379da30)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13b85735-88d3-480c-a743-4524af3eff4b)
     )
@@ -3290,15 +3290,15 @@
     (property "Sheetname" "")
     (path "/cbeeff66-77d0-4f53-8428-71a85bb199d8")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP55" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP55" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f222dd9-4171-4c10-abaf-3a614e4f88f5)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f428da40-ed58-4bd1-9ab0-7524ac32826e)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5896233-5df5-4012-8f50-fae9190f0882)
     )
@@ -3317,15 +3317,15 @@
     (property "Sheetname" "")
     (path "/a70004ba-95d8-42ca-bc4e-e5bede23e136")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP92" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP92" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 126fe2ff-fc55-4a53-9112-0da3a5d88e79)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c22b4187-20fa-42ed-a2c4-67fede695460)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7aeb91f-6865-4323-86eb-e9f78cf5fe5f)
     )
@@ -3344,15 +3344,15 @@
     (property "Sheetname" "")
     (path "/927ac2c7-5f63-4d17-b9d2-5c71e37a548d")
     (attr through_hole)
-    (fp_text reference "BT1" (at 36 1 90) (layer "F.SilkS")
+    (fp_text reference "BT1" (at 36 1 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99c6f9b2-fc86-4a46-8fd4-b7b967fbf0f1)
     )
-    (fp_text value "Battery_Cell" (at 36 -0.8 90) (layer "F.Fab")
+    (fp_text value "Battery_Cell" (at 36 -0.8 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9b4bb261-e8db-4d1f-a2fe-46fb4f3c9195)
     )
-    (fp_text user "${REFERENCE}" (at 36 -2.4 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 36 -2.4 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f53dbfd-980a-490b-b40b-d7d2007e085d)
     )
@@ -3390,15 +3390,15 @@
     (property "Sheetname" "")
     (path "/eab27f64-7ae5-467c-9217-ab13735d1a49")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP82" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP82" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39c40afb-7c56-4b6c-bf22-6250561d2647)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29a48f17-043d-4caf-8003-31b2693e9f0a)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c917202b-e99d-44fc-8254-d9adac329ae5)
     )
@@ -3417,15 +3417,15 @@
     (property "Sheetname" "")
     (path "/b8b2e22e-574b-4623-9fa0-fa6d26cb1b6c")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP6" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP6" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cd1ae1c4-103b-40ea-989b-2a232dd397e2)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5cb0c599-1621-41a5-aef8-31d9b2bd1441)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1884c155-d6c8-4862-a031-16ceac7eb1f3)
     )
@@ -3444,15 +3444,15 @@
     (property "Sheetname" "")
     (path "/3ff080de-cf16-4624-b26d-e248a89abaea")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP118" (at 0 -1.648 90) (layer "F.SilkS")
+    (fp_text reference "TP118" (at 0 -1.648 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec80a578-dbc2-4194-b70a-7e017d7e5c1c)
     )
-    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ea37b5e-2b70-4c30-be06-9e5e617b2867)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b575592f-cfb9-48a2-8b0e-761c4baa4eb2)
     )
@@ -3471,15 +3471,15 @@
     (property "Sheetname" "")
     (path "/b7c61fb9-acfb-41f4-8da5-3c3991fc9583")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP13" (at 0 -1.648) (layer "F.SilkS")
+    (fp_text reference "TP13" (at 0 -1.648) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c602872-798a-4893-a6f1-314fb1180971)
     )
-    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2529ec3-e4d4-4bc2-a5a7-a89e3e32404b)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9af73318-7a86-43e9-abd2-3a994a50273e)
     )
@@ -4405,6 +4405,84 @@
   (gr_line (start 148.4 49.1) (end 148.4 144.5) (layer "User.9") (width 0.15) (tstamp 9a707b4f-86bc-4fd1-9091-c649cc2bab68))
   (gr_line (start 151.5 49.1) (end 151.5 144.5) (layer "User.9") (width 0.15) (tstamp a5876893-25a5-44b4-9df6-881d029fcfda))
   (gr_line (start 113.4 49.3) (end 113.4 144.7) (layer "User.9") (width 0.15) (tstamp bf505c4d-3950-45df-a303-e15a33c81e0c))
+
+  (segment (start 108.4 73.3) (end 110.2 73.3) (width 0.25) (layer "F.Cu") (net 4) (tstamp 0dcad1a7-35ff-4243-b810-5ece3075619b))
+  (segment (start 107.185489 72.085489) (end 108.4 73.3) (width 0.25) (layer "F.Cu") (net 4) (tstamp 548f537f-1d10-482c-b60a-99d7ea762f09))
+  (segment (start 105.284511 72.085489) (end 107.185489 72.085489) (width 0.25) (layer "F.Cu") (net 4) (tstamp 69373a73-0356-4e66-996a-1ffd3ab9f22f))
+  (segment (start 104.11 73.26) (end 105.284511 72.085489) (width 0.25) (layer "F.Cu") (net 4) (tstamp c3c61883-4959-4241-a186-30c5d9f14be4))
+  (segment (start 106.65 73.26) (end 107.764511 74.374511) (width 0.25) (layer "F.Cu") (net 5) (tstamp 1f8881f8-00e3-4ace-9899-0cb5663b6793))
+  (segment (start 107.764511 74.374511) (end 112.325489 74.374511) (width 0.25) (layer "F.Cu") (net 5) (tstamp 90eccabf-a8c0-48c2-aec6-f87aed86d65c))
+  (segment (start 112.325489 74.374511) (end 113.4 73.3) (width 0.25) (layer "F.Cu") (net 5) (tstamp a9ec311c-da44-4b4e-9cc8-a926eb76bffd))
+  (segment (start 108.31101 75.8) (end 110.2 75.8) (width 0.25) (layer "F.Cu") (net 6) (tstamp 2ad25583-1e2a-400f-a949-8315c44e51f1))
+  (segment (start 104.11 75.8) (end 105.284511 74.625489) (width 0.25) (layer "F.Cu") (net 6) (tstamp 70ca5cca-00ff-456d-8816-37d3194e4d4e))
+  (segment (start 107.136499 74.625489) (end 108.31101 75.8) (width 0.25) (layer "F.Cu") (net 6) (tstamp 8154ca08-3a01-4ba6-ae23-9fb58b03b528))
+  (segment (start 105.284511 74.625489) (end 107.136499 74.625489) (width 0.25) (layer "F.Cu") (net 6) (tstamp eae062dd-ce28-4ce1-90d1-49cce2d4c65c))
+  (segment (start 106.65 75.8) (end 107.724511 76.874511) (width 0.25) (layer "F.Cu") (net 7) (tstamp 1cd434af-3614-43d1-9f4c-9a652f7407e6))
+  (segment (start 107.724511 76.874511) (end 112.325489 76.874511) (width 0.25) (layer "F.Cu") (net 7) (tstamp 43f4f7da-62d9-4ce5-9a5e-185e291a07d4))
+  (segment (start 112.325489 76.874511) (end 113.4 75.8) (width 0.25) (layer "F.Cu") (net 7) (tstamp 4bd582a8-9d16-4138-9bdf-d16bae06507d))
+  (segment (start 107.379771 77.165489) (end 108.514282 78.3) (width 0.25) (layer "F.Cu") (net 8) (tstamp 063076d2-3e14-4cdd-947c-bb859bc4e823))
+  (segment (start 108.514282 78.3) (end 110.2 78.3) (width 0.25) (layer "F.Cu") (net 8) (tstamp 0e2f9b6f-b0b2-42d1-8828-8fe046588bef))
+  (segment (start 104.11 78.34) (end 105.284511 77.165489) (width 0.25) (layer "F.Cu") (net 8) (tstamp e0ef317e-5440-4897-a495-9d53d92ca839))
+  (segment (start 105.284511 77.165489) (end 107.379771 77.165489) (width 0.25) (layer "F.Cu") (net 8) (tstamp f95eac7f-b687-4f0b-b792-09c96db9a5e6))
+  (segment (start 112.3 79.4) (end 113.4 78.3) (width 0.25) (layer "F.Cu") (net 9) (tstamp 7d87a116-8dc3-4d8e-bcdf-062d7861f761))
+  (segment (start 108.1 79.4) (end 112.3 79.4) (width 0.25) (layer "F.Cu") (net 9) (tstamp bc1ec25b-b5a3-443e-9709-be1f614400bc))
+  (segment (start 107.04 78.34) (end 108.1 79.4) (width 0.25) (layer "F.Cu") (net 9) (tstamp bea95a9c-ce59-4078-82bd-04d4fb913f44))
+  (segment (start 106.65 78.34) (end 107.04 78.34) (width 0.25) (layer "F.Cu") (net 9) (tstamp d1dba683-34d3-465f-ba4d-ac4b71161dba))
+  (segment (start 107.9 87.1) (end 112.3 87.1) (width 0.25) (layer "F.Cu") (net 23) (tstamp 22eff69c-19ed-495d-98e4-9292ef583f0d))
+  (segment (start 106.76 85.96) (end 107.9 87.1) (width 0.25) (layer "F.Cu") (net 23) (tstamp 6bf70d84-7461-42ab-aa58-6fe9e9c8aa7e))
+  (segment (start 112.3 87.1) (end 113.4 86) (width 0.25) (layer "F.Cu") (net 23) (tstamp 92ecbd72-66be-441e-afa3-26f4df1beb14))
+  (segment (start 106.65 85.96) (end 106.76 85.96) (width 0.25) (layer "F.Cu") (net 23) (tstamp ad97176e-1c3f-4d3c-a839-7e870480760d))
+  (segment (start 110.04 60.56) (end 110.2 60.4) (width 0.25) (layer "F.Cu") (net 24) (tstamp 1e6f481d-2c4e-4d56-88b1-b7c3ebfdccef))
+  (segment (start 106.65 60.56) (end 110.04 60.56) (width 0.25) (layer "F.Cu") (net 24) (tstamp 442cf014-c2e9-469f-9e05-7c1b68d16837))
+  (segment (start 110.2 60.4) (end 113.4 60.4) (width 0.25) (layer "F.Cu") (net 24) (tstamp 804b843a-c59e-4958-bb1d-57329f131e97))
+  (segment (start 104.11 60.56) (end 106.65 60.56) (width 0.25) (layer "F.Cu") (net 24) (tstamp ddc6ff98-b7ec-4843-88cd-0107f491b033))
+  (segment (start 105.174511 61.925489) (end 109.025489 61.925489) (width 0.25) (layer "F.Cu") (net 36) (tstamp 401139f2-94e8-42af-b7eb-6a61ec6d39de))
+  (segment (start 104.11 63.1) (end 104.11 62.99) (width 0.25) (layer "F.Cu") (net 36) (tstamp 462d450a-6b5b-4f85-81b2-920e746ac9c9))
+  (segment (start 109.025489 61.925489) (end 110.2 63.1) (width 0.25) (layer "F.Cu") (net 36) (tstamp 66c63f84-3f05-43f0-a0df-812ae32706c7))
+  (segment (start 104.11 62.99) (end 105.174511 61.925489) (width 0.25) (layer "F.Cu") (net 36) (tstamp fd25fc98-3ffc-43cf-991e-06a2329c0621))
+  (segment (start 112.325489 64.174511) (end 113.4 63.1) (width 0.25) (layer "F.Cu") (net 37) (tstamp 00737a54-cb74-4928-9351-afbc8fee5eba))
+  (segment (start 106.65 63.1) (end 107.724511 64.174511) (width 0.25) (layer "F.Cu") (net 37) (tstamp c21fb49a-ea8b-42a4-9275-8327c51ea063))
+  (segment (start 107.724511 64.174511) (end 112.325489 64.174511) (width 0.25) (layer "F.Cu") (net 37) (tstamp cec9ddda-86fd-4aac-b893-f009b5bb72f4))
+  (segment (start 108.514282 65.6) (end 110.2 65.6) (width 0.25) (layer "F.Cu") (net 38) (tstamp 3561c6ed-101c-4503-9b51-8ff6901ae08d))
+  (segment (start 107.379771 64.465489) (end 108.514282 65.6) (width 0.25) (layer "F.Cu") (net 38) (tstamp 8ab00634-7b4c-47c3-a012-1711e477a8e3))
+  (segment (start 104.11 65.64) (end 105.284511 64.465489) (width 0.25) (layer "F.Cu") (net 38) (tstamp 9e98a4ed-3e80-4e98-855b-f026f468c40c))
+  (segment (start 105.284511 64.465489) (end 107.379771 64.465489) (width 0.25) (layer "F.Cu") (net 38) (tstamp fa990930-815e-4974-bbd9-0b898e2db593))
+  (segment (start 106.65 65.64) (end 107.684511 66.674511) (width 0.25) (layer "F.Cu") (net 39) (tstamp 218c65c1-a667-472e-897b-500df3bd06d1))
+  (segment (start 107.684511 66.674511) (end 112.325489 66.674511) (width 0.25) (layer "F.Cu") (net 39) (tstamp 723cdcc6-48f2-4dcc-becc-4899a788c50c))
+  (segment (start 112.325489 66.674511) (end 113.4 65.6) (width 0.25) (layer "F.Cu") (net 39) (tstamp 8234f122-79b1-4d9a-a039-6acfe269ad02))
+  (segment (start 108.4 68.2) (end 110.2 68.2) (width 0.25) (layer "F.Cu") (net 40) (tstamp bb677904-2a09-44e3-8889-e96b298e4735))
+  (segment (start 105.284511 67.005489) (end 107.205489 67.005489) (width 0.25) (layer "F.Cu") (net 40) (tstamp c43b866f-c056-4b84-903b-4319b770ff0e))
+  (segment (start 107.205489 67.005489) (end 108.4 68.2) (width 0.25) (layer "F.Cu") (net 40) (tstamp cfadc12c-58d2-4a58-9065-1af0c392540b))
+  (segment (start 104.11 68.18) (end 105.284511 67.005489) (width 0.25) (layer "F.Cu") (net 40) (tstamp d068a5a0-d5c3-4ad3-93ed-46667c5df595))
+  (segment (start 106.65 68.18) (end 107.744511 69.274511) (width 0.25) (layer "F.Cu") (net 41) (tstamp 73a3a021-753e-489c-9645-2b76219c9510))
+  (segment (start 112.325489 69.274511) (end 113.4 68.2) (width 0.25) (layer "F.Cu") (net 41) (tstamp bc39f4ef-b10a-4354-aa58-ea187f3b8ac5))
+  (segment (start 107.744511 69.274511) (end 112.325489 69.274511) (width 0.25) (layer "F.Cu") (net 41) (tstamp c59841f1-2fe6-4220-8baf-df3bab4bab3e))
+  (segment (start 108.5 70.7) (end 110.2 70.7) (width 0.25) (layer "F.Cu") (net 42) (tstamp 397c76eb-3b8c-4347-9ddc-d95fcc117f19))
+  (segment (start 104.11 70.72) (end 105.284511 69.545489) (width 0.25) (layer "F.Cu") (net 42) (tstamp 873dc3d8-c56f-4bbf-8da3-2bc4025a12a9))
+  (segment (start 107.345489 69.545489) (end 108.5 70.7) (width 0.25) (layer "F.Cu") (net 42) (tstamp ccd1925b-7a87-42ba-90f8-92a24dfa6eb2))
+  (segment (start 105.284511 69.545489) (end 107.345489 69.545489) (width 0.25) (layer "F.Cu") (net 42) (tstamp fa7850f4-954e-4b18-a8ec-e46f0027f28a))
+  (segment (start 107.704511 71.774511) (end 112.325489 71.774511) (width 0.25) (layer "F.Cu") (net 43) (tstamp 355f4649-5620-4ff8-b165-cf8f0d036b98))
+  (segment (start 112.325489 71.774511) (end 113.4 70.7) (width 0.25) (layer "F.Cu") (net 43) (tstamp 485ad60a-cfc1-4ced-8a96-4dd7656765fb))
+  (segment (start 106.65 70.72) (end 107.704511 71.774511) (width 0.25) (layer "F.Cu") (net 43) (tstamp 5bc09145-17aa-4aca-9ef7-d9a0b3841b98))
+  (segment (start 107.305489 79.705489) (end 108.5 80.9) (width 0.25) (layer "F.Cu") (net 44) (tstamp 0a9ff54a-1269-443f-b976-900c67a46e65))
+  (segment (start 108.5 80.9) (end 110.2 80.9) (width 0.25) (layer "F.Cu") (net 44) (tstamp 4c12ceec-94b4-4a53-890d-2b040b0797bb))
+  (segment (start 105.284511 79.705489) (end 107.305489 79.705489) (width 0.25) (layer "F.Cu") (net 44) (tstamp 9d35e5ba-299f-47fb-a1ff-74306e2c0b7a))
+  (segment (start 104.11 80.88) (end 105.284511 79.705489) (width 0.25) (layer "F.Cu") (net 44) (tstamp cc3c8668-959b-4f1b-95ae-936b2e417c31))
+  (segment (start 106.65 80.88) (end 107.744511 81.974511) (width 0.25) (layer "F.Cu") (net 45) (tstamp 3dc635af-a5a7-4a12-9fac-39e926e72801))
+  (segment (start 107.744511 81.974511) (end 112.325489 81.974511) (width 0.25) (layer "F.Cu") (net 45) (tstamp 665b2486-ab6d-412e-85c7-5048b4b4111c))
+  (segment (start 112.325489 81.974511) (end 113.4 80.9) (width 0.25) (layer "F.Cu") (net 45) (tstamp f5a49753-fd62-4214-80c8-f7dafaab35e1))
+  (segment (start 104.11 83.42) (end 105.284511 82.245489) (width 0.25) (layer "F.Cu") (net 46) (tstamp 64f3f57e-fb11-45d6-9a71-d31a9d04ced3))
+  (segment (start 105.284511 82.245489) (end 107.145489 82.245489) (width 0.25) (layer "F.Cu") (net 46) (tstamp 94f01e3e-4ec9-4e7e-876a-9a385165920e))
+  (segment (start 108.3 83.4) (end 110.2 83.4) (width 0.25) (layer "F.Cu") (net 46) (tstamp be2d083a-753c-4e26-9a17-0117cb57439c))
+  (segment (start 107.145489 82.245489) (end 108.3 83.4) (width 0.25) (layer "F.Cu") (net 46) (tstamp fe6200e5-3520-400e-9a58-09129b253c03))
+  (segment (start 112.3 84.5) (end 113.4 83.4) (width 0.25) (layer "F.Cu") (net 47) (tstamp 45a98060-138a-4ba1-85cc-fcc1553a02ff))
+  (segment (start 106.65 83.45) (end 107.7 84.5) (width 0.25) (layer "F.Cu") (net 47) (tstamp 76430410-3df0-4a73-a8d4-1d3d78ef1498))
+  (segment (start 106.65 83.42) (end 106.65 83.45) (width 0.25) (layer "F.Cu") (net 47) (tstamp 8d07b55d-2879-4b6b-8a1b-3e52e45d9bfe))
+  (segment (start 107.7 84.5) (end 112.3 84.5) (width 0.25) (layer "F.Cu") (net 47) (tstamp e1de46c8-308d-4b77-b1d0-95485bbbfd92))
+  (segment (start 107.185489 84.785489) (end 108.4 86) (width 0.25) (layer "F.Cu") (net 48) (tstamp 3674131c-1c02-408a-96bf-c9759a6229ed))
+  (segment (start 105.284511 84.785489) (end 107.185489 84.785489) (width 0.25) (layer "F.Cu") (net 48) (tstamp 8bbd0f52-c45d-429f-bd3c-5cc6ce6a6326))
+  (segment (start 104.11 85.96) (end 105.284511 84.785489) (width 0.25) (layer "F.Cu") (net 48) (tstamp a43db7ef-78ac-4535-8c5f-f591b6533e21))
+  (segment (start 108.4 86) (end 110.3 86) (width 0.25) (layer "F.Cu") (net 48) (tstamp e24eee2c-2388-4706-9a7b-671ded831b0d))
 
   (zone (net 2) (net_name "GND") (layers F&B.Cu) (tstamp a89b6eb7-38d1-4d58-aa69-74ca0956c2bc) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
