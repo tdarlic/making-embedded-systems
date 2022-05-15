@@ -25,4 +25,14 @@ Device should also display value and basic data when picked up and also would sh
 on a side. 
 
 
-## State machine table
+## State machine table for the digital barometer
+| States           | Action           | Events  |                  |                  |                 |                  |                 | Comment                       |
+|------------------|------------------|---------|------------------|------------------|-----------------|------------------|-----------------|-------------------------------|
+|                  |                  | Timer   | Move             | Tilt-Portrait    | Tilt-Landscpe   | Button           | Warning         |                               |
+| ON               | initialize       | x       | x                | x                | x               | x                | x               | Initialization procedure      |
+| SLEEP            | sleep            | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Screen off, waiting for timer |
+| MEASURE          | measure          | ERROR   | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Measure in the background     |
+| DISPLAY_PRESSURE | display_pressure | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Display current pressure      |
+| DISPLAY_TREND    | display_trend    | MEASURE | DISPLAY_TREND    | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_TREND    | DISPLAY_WARNING | Display pressure graph        |
+| DISPLAY_WARNING  | display_warning  | MEASURE | DISPLAY_WARNING  | DISPLAY_WARNING  | DISPLAY_WARNING | DISPLAY_WARNING  | DISPLAY_WARNING | Display storm warning         |
+| ERROR            | reset            | ON      | x                | x                | x               | x                | x               | Reset the device              |
