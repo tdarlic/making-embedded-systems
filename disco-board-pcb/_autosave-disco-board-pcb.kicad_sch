@@ -2096,7 +2096,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 221.615 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04620c9b-faea-4c13-baaf-7f7ece0a96e1)
-    (property "Reference" "TP?" (id 0) (at 150.495 221.615 90))
+    (property "Reference" "TP128" (id 0) (at 150.495 221.615 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 219.9128 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -2649,7 +2649,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 213.995 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 36e462b6-15d1-4683-9eda-a167600c74c2)
-    (property "Reference" "TP?" (id 0) (at 150.495 213.995 90))
+    (property "Reference" "TP125" (id 0) (at 150.495 213.995 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 212.2928 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -2696,7 +2696,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 219.075 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3da7d40b-050e-43da-adfb-bdf4ded032dd)
-    (property "Reference" "TP?" (id 0) (at 150.495 219.075 90))
+    (property "Reference" "TP127" (id 0) (at 150.495 219.075 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 217.3728 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -3565,7 +3565,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 216.535 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9bd6212a-3993-4904-9135-d74eb822c60a)
-    (property "Reference" "TP?" (id 0) (at 150.495 216.535 90))
+    (property "Reference" "TP126" (id 0) (at 150.495 216.535 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 214.8328 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -3597,7 +3597,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 208.915 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a00d6244-4004-4654-b8bb-f9138d30bb56)
-    (property "Reference" "TP?" (id 0) (at 150.495 208.915 90))
+    (property "Reference" "TP123" (id 0) (at 150.495 208.915 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 207.2128 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -3677,7 +3677,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 203.835 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a3dd6d5e-24ce-451d-b4aa-01d4c0ff1c0b)
-    (property "Reference" "TP?" (id 0) (at 150.495 203.835 90))
+    (property "Reference" "TP121" (id 0) (at 150.495 203.835 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 202.1328 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -4142,7 +4142,7 @@
   (symbol (lib_id "power:GND") (at 167.005 203.835 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb06ceba-6243-4549-bef1-903e90205322)
-    (property "Reference" "#PWR?" (id 0) (at 173.355 203.835 0)
+    (property "Reference" "#PWR0101" (id 0) (at 173.355 203.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 170.1799 203.4012 90)
@@ -4296,7 +4296,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 206.375 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d3427dd9-00a1-4b49-9fef-2523776bf9cb)
-    (property "Reference" "TP?" (id 0) (at 150.495 206.375 90))
+    (property "Reference" "TP122" (id 0) (at 150.495 206.375 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 204.6728 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -4554,7 +4554,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 156.845 211.455 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ddc5318c-a26c-4437-b803-d3049f0a9b09)
-    (property "Reference" "TP?" (id 0) (at 150.495 211.455 90))
+    (property "Reference" "TP124" (id 0) (at 150.495 211.455 90))
     (property "Value" "TestPoint" (id 1) (at 152.146 209.7528 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -4945,7 +4945,7 @@
       (reference "#PWR021") (unit 1) (value "VDD") (footprint "")
     )
     (path "/cb06ceba-6243-4549-bef1-903e90205322"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/927ac2c7-5f63-4d17-b9d2-5c71e37a548d"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Battery:BatteryHolder_MPD_BH-18650-PC2")
@@ -5340,29 +5340,29 @@
     (path "/0751a9b1-065c-4fae-bb29-488286085cac"
       (reference "TP120") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
-    (path "/04620c9b-faea-4c13-baaf-7f7ece0a96e1"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/36e462b6-15d1-4683-9eda-a167600c74c2"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/3da7d40b-050e-43da-adfb-bdf4ded032dd"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/9bd6212a-3993-4904-9135-d74eb822c60a"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/a00d6244-4004-4654-b8bb-f9138d30bb56"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
     (path "/a3dd6d5e-24ce-451d-b4aa-01d4c0ff1c0b"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP121") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/d3427dd9-00a1-4b49-9fef-2523776bf9cb"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP122") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/a00d6244-4004-4654-b8bb-f9138d30bb56"
+      (reference "TP123") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/ddc5318c-a26c-4437-b803-d3049f0a9b09"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP124") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/36e462b6-15d1-4683-9eda-a167600c74c2"
+      (reference "TP125") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/9bd6212a-3993-4904-9135-d74eb822c60a"
+      (reference "TP126") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/3da7d40b-050e-43da-adfb-bdf4ded032dd"
+      (reference "TP127") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/04620c9b-faea-4c13-baaf-7f7ece0a96e1"
+      (reference "TP128") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/c2c1c04a-fec3-4a00-a18d-b12320c134e4"
       (reference "U1") (unit 1) (value "MMA8653FCR1") (footprint "Package_DFN_QFN_AKL:DFN-10_2x2mm_P0.4mm")
