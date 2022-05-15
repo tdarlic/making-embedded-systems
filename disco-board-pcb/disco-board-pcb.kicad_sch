@@ -4,6 +4,12 @@
 
   (paper "A4" portrait)
 
+  (title_block
+    (title "DISCO-F429ZI shield board")
+    (date "2022-05-16")
+    (rev "1")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
