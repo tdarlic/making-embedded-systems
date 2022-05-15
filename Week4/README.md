@@ -26,13 +26,22 @@ on a side.
 
 
 ## State machine table for the digital barometer
-| States           | Action           | Events  |                  |                  |                 |                  |                 | Comment                       |
-|------------------|------------------|---------|------------------|------------------|-----------------|------------------|-----------------|-------------------------------|
-|                  |                  | Timer   | Move             | Tilt-Portrait    | Tilt-Landscpe   | Button           | Warning         |                               |
-| ON               | initialize       | x       | x                | x                | x               | x                | x               | Initialization procedure      |
-| SLEEP            | sleep            | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Screen off, waiting for timer |
-| MEASURE          | measure          | ERROR   | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Measure in the background     |
-| DISPLAY_PRESSURE | display_pressure | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | Display current pressure      |
-| DISPLAY_TREND    | display_trend    | MEASURE | DISPLAY_TREND    | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_TREND    | DISPLAY_WARNING | Display pressure graph        |
-| DISPLAY_WARNING  | display_warning  | MEASURE | DISPLAY_WARNING  | DISPLAY_WARNING  | DISPLAY_WARNING | DISPLAY_WARNING  | DISPLAY_WARNING | Display storm warning         |
-| ERROR            | reset            | ON      | x                | x                | x               | x                | x               | Reset the device              |
+| States           | Action           | Events  |                  |                  |                 |                  |                 | 
+|------------------|------------------|---------|------------------|------------------|-----------------|------------------|-----------------|
+|                  |                  | Timer   | Move             | Tilt-Portrait    | Tilt-Landscpe   | Button           | Warning         | 
+| ON               | initialize       | x       | x                | x                | x               | x                | x               | 
+| SLEEP            | sleep            | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | 
+| MEASURE          | measure          | ERROR   | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | 
+| DISPLAY_PRESSURE | display_pressure | MEASURE | DISPLAY_PRESSURE | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_PRESSURE | DISPLAY_WARNING | 
+| DISPLAY_TREND    | display_trend    | MEASURE | DISPLAY_TREND    | DISPLAY_PRESSURE | DISPLAY_TREND   | DISPLAY_TREND    | DISPLAY_WARNING | 
+| DISPLAY_WARNING  | display_warning  | MEASURE | DISPLAY_WARNING  | DISPLAY_WARNING  | DISPLAY_WARNING | DISPLAY_WARNING  | DISPLAY_WARNING | 
+| ERROR            | reset            | ON      | x                | x                | x               | x                | x               | 
+
+### Description of the states
+- ON               - Initial state, all variables are reset and device started
+- SLEEP            - State in which device loops with screen off waiting for the timer or movement/input
+- MEASURE          - Measuring, this can be done in the background with ADC trough the timer
+- DISPLAY_PRESSURE - Standard display pressure mode in which the device is displaying pressure in portrait mode
+- DISPLAY_TREND    - Display pressure trend (graph) in last 6 hours in portait mode
+- DISPLAY_WARNING  - Warning: pressure trend has shown that the storm might be approacing
+- ERROR            - Some of the parameters of pressures is out of bounds, reset the device
