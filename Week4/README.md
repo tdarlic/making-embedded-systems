@@ -45,3 +45,11 @@ on a side.
 - DISPLAY_TREND    - Display pressure trend (graph) in last 6 hours in portait mode
 - DISPLAY_WARNING  - Warning: pressure trend has shown that the storm might be approacing
 - ERROR            - Some of the parameters of pressures is out of bounds, reset the device
+
+### Description of the events
+- Timer             - Timer has run out and the device will either take measurement or display value
+- Move              - Movement has been detected and device will react to that by showing the screen
+- Tilt-Portait      - Device was set in portait orientation so display standard screen with preesure value
+- Tilt-Landscpe     - Device was set in landscape mode so show the graph with pressure trend
+- Button            - Button was pressed - activate the screen
+- Warning           - Pressure trend indicates that the storm is approaching
