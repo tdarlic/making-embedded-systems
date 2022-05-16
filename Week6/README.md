@@ -10,6 +10,7 @@
 ## 6. Build instructions
 ### 6.1 How to build the system (including the toolchain(s))
 #### Hardware
+![Hardware block diagram](/Week6/hardware_block_diagram.png)
 #### Software
 ### 6.2 How you debugged and tested the system
 ## 7. Future
