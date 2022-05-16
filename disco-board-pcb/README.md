@@ -10,6 +10,7 @@ Following devices are added:
     - [Info Page](https://www.nxp.com/products/sensors/accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
 
 ### Schematic
+![Schematic](/disco-board-pcb/disco-board-pcb.png)
 ![Schematic PDF](/disco-board-pcb/disco-board-pcb.pdf)
 
 ### PCB Top View
