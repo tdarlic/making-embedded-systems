@@ -27,18 +27,25 @@ Code uses the main control loop which handles the majority of the logic of the d
 3. Software drivers:
     - [LPS28DFW](https://github.com/STMicroelectronics/STMems_Standard_C_drivers)(BSD 3-Clause License)
     - [MMA8653FC](https://www.nxp.com/design/sensor-developer-resources/sensor-sw-component-library/sensor-drivers-for-nxp-sensors:SENSOR-DRIVERS)(Licence: LA_OPT_NXP_Software_License v34 February 2022 )
-    - Graphics library
-    - HAL (including generated code for the TFT LCD and touch controller)
+    - Graphics library [LVGL](https://github.com/lvgl/lv_port_stm32f429_disco)
+    - HAL (including generated code for the TFT LCD and touch controller)(MIT License)
+    - Debug command line (Code taken from the Elicia White MES Week 5 assignment and adapted to match the requirements of the system):
+        - Accelerometer test functions
+        - Barometer test functions
+        - Screen test functions
+        - Logging and mocking procedure for storm prediction algorithm
 
 - Describe the parts you wrote in some detail (maybe 3-5 sentences per module)
 - Describe code you re-used from other sources, including the licenses for those
 
 ## 4. Diagram(s) of the architecture
+![Hierarchy of control diagram](/Week6/hierarchy_of_control_diagram.png)
 
 ## 5. Build instructions
 
 ### 5.1 How to build the system (including the toolchain(s))
 #### Hardware
+For putting hardware together a pcb was developed so it can hold the 
 #### Software
 ### 5.2 How you debugged and tested the system
 
