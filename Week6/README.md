@@ -39,7 +39,8 @@ Code uses the main control loop which handles the majority of the logic of the d
 - Describe code you re-used from other sources, including the licenses for those
 
 ## 4. Diagram(s) of the architecture
-![Hierarchy of control diagram](/Week6/hierarchy_of_control_diagram.png)
+![Hierarchy of control diagram](/Week6/hierarchy_of_control_diagram.png#gh-light-mode-only)
+![Hierarchy of control diagram](/Week6/hierarchy_of_control_diagram.dark.png#gh-dark-mode-only)
 
 ## 5. Build instructions
 
