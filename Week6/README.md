@@ -2,12 +2,12 @@
 
 ## 1. Application description
 The project is digital barometer with algorithm that predicts the oncoming storms. Device sleeps with the screen off until one of the two things happen:
-1. Device is picked up and hadled
+1. Device is picked up and handled
 2. Storm is detected
 
-Accelerometer and gyro will assist in detecting that the dvice was picked up and would also detect the orientation of the device. 
+Accelerometer and gyro will assist in detecting that the device was picked up and would also detect the orientation of the device. 
 In case of storm the device would periodically light up a screen and would diplay a short warning about the oncoming storm.
-The algorithm for detecting of storms would read the trend of the atmspheric pressure during last 6 or 12 hours and would interpret the results
+The algorithm for detecting of storms would read the trend of the atmospheric pressure during last 6 or 12 hours and would interpret the results
 
 ## 2. Hardware description
 Device is assembled out of DISCO-F429ZI development board and the small "shield" attached to it. The sheild is carrying the accelerometer and the barometer.
@@ -16,7 +16,8 @@ Following sensors are used in addition to the gyro already supplied by the board
 - [MMA8653FC](https://www.nxp.com/products/sensors/accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC) 10-Bit Digital Accelerometer
 
 #### Hardware block diagram
-![Hardware block diagram](/Week6/hardware_block_diagram.png)
+![Hardware block diagram](/Week6/hardware_block_diagram.png#gh-light-mode-only)
+![Hardware block diagram](/Week6/hardware_block_diagram.dark.png#gh-dark-mode-only)
 
 ## 3. Software description
 Code uses the main control loop which handles the majority of the logic of the device. Below are main parts of the software:
