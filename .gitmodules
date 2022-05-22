@@ -4,3 +4,6 @@
 [submodule "Week5/mes-console"]
 	path = Week5/mes-console
 	url = https://github.com/tdarlic/mes-console
+[submodule "Week8/mes-resource-constraints"]
+	path = Week8/mes-resource-constraints
+	url = https://github.com/tdarlic/mes-resource-constraints
