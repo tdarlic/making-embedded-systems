@@ -1,5 +1,5 @@
 # Week 8 homwork: Resource constraints
-Assignment code in submodule :octocat: :open_file_folder: [mes-resource-constraints]()
+Assignment code in submodule :octocat: :open_file_folder: [mes-resource-constraints](https://github.com/tdarlic/mes-resource-constraints/tree/cbb3d734e540b0dc61d3bea63681d8ca66cd90dc)
 
 ## Printing resource constraints
 I made use of the console library created in week 5 homework. New command was created `ConsoleCommandResourceConstraints()`:
