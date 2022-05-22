@@ -86,7 +86,7 @@ Following definition of the global variable `_estack` is defined in the linker s
   _estack = ORIGIN(RAM) + LENGTH(RAM); /* end of "RAM" Ram type memory */
 ```
 Function `__get_MSP()` is defined in `cmsis_armcc.c`:
-```
+```c
 /**
   \brief   Get Main Stack Pointer
   \details Returns the current value of the Main Stack Pointer (MSP).
@@ -170,7 +170,8 @@ After changing the linker file it is obvious that
 
 ## Printing all variables from map file starting with double underscores "dunders"
 Following command was used to print out all double underscore variables:
-`cat mes-resource-constraints.map| grep \ __`
+`cat mes-resource-constraints.map| grep \ __` 
+
 Output:
 ```
                 0x0000000008000290                __aeabi_uldivmod
