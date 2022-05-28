@@ -100,16 +100,16 @@ memory usage but I don't have a time for that now
 I've compiled a code to assembly using `-O1` compiler parameter as the assembly 
 was too long to analyse using `-O0` parameter.
 
-### Code length of each function 
-| Function | Type | Code length | Code length |
+### Code length of each function vs speed
+| Function | Speed | Type | Code length | Code length |
 | -------- | ----------- | ----------- | ----------- |
-|          |      | (in asm lines)| (map file) |
-| countOnesA | Lookup table | 22 | 482 |
-| countOnesB | Counting least significant set bit | 9 | 50 |
-| countOnesC | MIT HAKMEM | 22 | 115 |
-| countOnesD | Magic number ver 1 | 19 | 136 |
-| countOnesE | Magic number ver 2 | 13 | 161 |
-| countOnesF | Simple | 12 | 66 |
+|          | Smaller is better | (in asm lines)| (map file) |
+| countOnesA | 0.06 | Lookup table | 22 | 482 |
+| countOnesB | 0.05 | Counting least significant set bit | 9 | 50 |
+| countOnesC | 0.00 | MIT HAKMEM | 22 | 115 |
+| countOnesD | 0.00 | Magic number ver 1 | 19 | 136 |
+| countOnesE | 0.00 | Magic number ver 2 | 13 | 161 |
+| countOnesF | 0.31 | Simple | 12 | 66 |
 
 Code size calculated like this is not real representation of the real MCU code size this
 should be calculated from map file but I'll use it here because of the lack of time 
