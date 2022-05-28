@@ -26,6 +26,69 @@ This outputs compiled code and the profiler output which is then fed to `gprof` 
 gprof -b code_prof.out gmon.out
 ```
 
+### Output of the profiler
+Each value generated is printed out so that compiler does not optimize out
+variable
+```
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 45.09      0.31     0.31  1000000   306.63   306.63  countOnesF
+ 38.44      0.57     0.26                             main
+  8.87      0.63     0.06  1000000    60.32    60.32  countOnesA
+  7.39      0.68     0.05  1000000    50.27    50.27  countOnesB
+  0.74      0.68     0.01  1000000     5.03     5.03  countOnesE
+  0.00      0.68     0.00  1000000     0.00     0.00  countOnesC
+  0.00      0.68     0.00  1000000     0.00     0.00  countOnesD
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 1.46% of 0.68 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.26    0.42                 main [1]
+                0.31    0.00 1000000/1000000     countOnesF [2]
+                0.06    0.00 1000000/1000000     countOnesA [3]
+                0.05    0.00 1000000/1000000     countOnesB [4]
+                0.01    0.00 1000000/1000000     countOnesE [5]
+                0.00    0.00 1000000/1000000     countOnesC [6]
+                0.00    0.00 1000000/1000000     countOnesD [7]
+-----------------------------------------------
+                0.31    0.00 1000000/1000000     main [1]
+[2]     44.9    0.31    0.00 1000000         countOnesF [2]
+-----------------------------------------------
+                0.06    0.00 1000000/1000000     main [1]
+[3]      8.8    0.06    0.00 1000000         countOnesA [3]
+-----------------------------------------------
+                0.05    0.00 1000000/1000000     main [1]
+[4]      7.4    0.05    0.00 1000000         countOnesB [4]
+-----------------------------------------------
+                0.01    0.00 1000000/1000000     main [1]
+[5]      0.7    0.01    0.00 1000000         countOnesE [5]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     main [1]
+[6]      0.0    0.00    0.00 1000000         countOnesC [6]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     main [1]
+[7]      0.0    0.00    0.00 1000000         countOnesD [7]
+-----------------------------------------------
+
+Index by function name
+
+   [3] countOnesA              [7] countOnesD              [1] main
+   [4] countOnesB              [5] countOnesE
+   [6] countOnesC              [2] countOnesF
+```
+
+The slowest function is function B using set bit elimination but the
+interesting fact is that the second slowest is one using a lookup table.
+The rest of the optimized fast functions are so fast that after 1M repeats
+there are basically executed in no time
+
 ## Descriptions and comments
 
 ### Lookup table (Function A)

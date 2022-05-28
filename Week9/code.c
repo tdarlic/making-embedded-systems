@@ -8,6 +8,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include <limits.h>
+
+#define NO_REPEATS 1000000
 
 /**
  * Counts number of bits that are set to one in 32 bit word
@@ -111,9 +114,9 @@ uint8_t countOnesD (uint32_t x){
  */
 uint8_t countOnesE(uint32_t v)
 {
-    unsigned int c; // store the total here
-    static const int S[] = {1, 2, 4, 8, 16}; // Magic Binary Numbers
-    static const int B[] = {0x55555555, 0x33333333, 0x0F0F0F0F, 0x00FF00FF, 0x0000FFFF};
+    uint32_t c; // store the total here
+    static const uint32_t S[] = {1, 2, 4, 8, 16}; // Magic Binary Numbers
+    static const uint32_t B[] = {0x55555555, 0x33333333, 0x0F0F0F0F, 0x00FF00FF, 0x0000FFFF};
 
     c = v - ((v >> 1) & B[0]);
     c = ((c >> S[1]) & B[1]) + (c & B[1]);
@@ -123,24 +126,71 @@ uint8_t countOnesE(uint32_t v)
     return c;
 }
 
-int main(void) {
+
+/**
+ * Counts number of bits that are set to one in 32 bit word
+ * This function just checks if the last bit is 1 and then shifts all 1 bit to right
+ * @param x uint32_t 32 bit wide word to be counted
+ * @return uint8_t Number of bits set to 1
+ */
+uint8_t countOnesF(uint32_t v)
+{
+    uint8_t count = 0;
+    for(uint8_t i = 0; i < 32; i++){
+       if (v & 0x1){
+           count++;
+       }
+       v = v >> 1;
+    }
+    return count;
+}
+
+/* *
+ * If any argument is provided on the command line the function will just output the values
+ * Othervise it will iterate 10k times so that profiler can check the execution time
+ * */
+int main(int argc, char *argv[]) {
     uint32_t test = 0xAAAAAAAA;
-    uint8_t r;
-    // insert code here: 
-    printf("Testing counting bits set to one in: 0x%04X\n", test);
-    
-    r = countOnesA(test);
-    printf("countOnesA result: %i\n", r);
+    uint8_t n;
+    uint32_t valarr[NO_REPEATS];
+    uint32_t i, numrep = 0;
 
-    r = countOnesB(test);
-    printf("countOnesB result: %i\n", r);
+    if (argc == 1){
+        printf("Calcuating for profiler %i times", NO_REPEATS);
+        // Seed random number genarator
+        srand(time(NULL));   
+        // Fill in the vallarr with random numbers
+        for (uint32_t i = 0; i < NO_REPEATS; i++){
+            // Generate random number between 0 and UINT_MAX
+            valarr[i] = rand() % UINT_MAX;
+        }
+        numrep = NO_REPEATS;
+    } else  {
+        i = 1;
+        valarr [0] = test;
+        numrep = 1;
+        printf("Calcuating only once\n");
+    }
 
-    r = countOnesC(test);
-    printf("countOnesC result: %i\n", r);
-
-    r = countOnesD(test);
-    printf("countOnesD result: %i\n", r);
-
-    r = countOnesE(test);
-    printf("countOnesE result: %i\n", r);
+    for (i = 0; i < numrep; i++){
+        printf("Testing counting bits set to one in: 0x%04X\n", valarr[i]);
+        
+        n = countOnesA(valarr[i]);
+        printf("countOnesA result: %i\n", n);
+        
+        n = countOnesB(valarr[i]);
+        printf("countOnesB result: %i\n", n);
+        
+        n = countOnesC(valarr[i]);
+        printf("countOnesC result: %i\n", n);
+        
+        n = countOnesD(valarr[i]);
+        printf("countOnesD result: %i\n", n);
+       
+        n = countOnesE(valarr[i]);
+        printf("countOnesE result: %i\n", n);
+       
+        n = countOnesF(valarr[i]);
+        printf("countOnesF result: %i\n", n);
+    }
 }
