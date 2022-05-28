@@ -87,7 +87,7 @@ uint8_t countOnesC(uint32_t x) {
 
 /**
  * Counts number of bits that are set to one in 32 bit word
- * This function counts set bits in parralel using the "magic" numbers:
+ * This function counts set bits in parallel using the "magic" numbers:
  * 0x55555555, 0x33333333, 0x0f0f0f0f, 0x00ff00ff, 0x0000ffff
  * It works by counting bits "in parralel", each set bit is
  * "shifted" to the right until the correct number remains in least significant byte
