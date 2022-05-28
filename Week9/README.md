@@ -103,7 +103,7 @@ was too long to analyse using `-O0` parameter.
 ### Code length of each function vs speed
 | Function | Speed | Type | Code length | Code length |
 | -------- | ----------- | ----------- | ----------- | ----------- |
-|          | Smaller is better | (in asm lines)| (map file) |
+|          | Smaller is better |  | (in asm lines)| (map file) |
 | countOnesA | 0.06 | Lookup table | 22 | 482 |
 | countOnesB | 0.05 | Counting least significant set bit | 9 | 50 |
 | countOnesC | 0.00 | MIT HAKMEM | 22 | 115 |
