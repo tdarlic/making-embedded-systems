@@ -101,14 +101,14 @@ I've compiled a code to assembly using `-O1` compiler parameter as the assembly
 was too long to analyse using `-O0` parameter.
 
 ### Code length of each function 
-| Function | Code length (in asm lines)| Code length (map file) |
-| -------- | ----------- | ----------- |
-| countOnesA | 22 | 482 |
-| countOnesB | 9 | 50 |
-| countOnesC | 22 | 115 |
-| countOnesD | 19 | 136 |
-| countOnesE | 13 | 161 |
-| countOnesF | 12 | 66 |
+| Function | Type | Code length (in asm lines)| Code length (map file) |
+| -------- | ----------- | ----------- | ----------- |
+| countOnesA | Lookup table | 22 | 482 |
+| countOnesB | Counting least significant set bit | 9 | 50 |
+| countOnesC | MIT HAKMEM | 22 | 115 |
+| countOnesD | Magic number ver 1 | 19 | 136 |
+| countOnesE | Magic number ver 2 | 13 | 161 |
+| countOnesF | Simple | 12 | 66 |
 
 Code size calculated like this is not real representation of the real MCU code size this
 should be calculated from map file but I'll use it here because of the lack of time 
