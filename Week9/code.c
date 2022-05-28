@@ -5,7 +5,9 @@
  * ***********************************************************************************/
 
 #include <stdint.h>
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
  * Counts number of bits that are set to one in 32 bit word
@@ -107,7 +109,7 @@ uint8_t countOnesD (uint32_t x){
  * @param x uint32_t 32 bit wide word to be counted
  * @return uint8_t Number of bits set to 1
  */
-uint8_t countOnesE(uint8_t v)
+uint8_t countOnesE(uint32_t v)
 {
     unsigned int c; // store the total here
     static const int S[] = {1, 2, 4, 8, 16}; // Magic Binary Numbers
@@ -126,6 +128,7 @@ int main(void) {
     uint8_t r;
     // insert code here: 
     printf("Testing counting bits set to one in: 0x%04X\n", test);
+    
     r = countOnesA(test);
     printf("countOnesA result: %i\n", r);
 
