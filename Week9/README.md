@@ -102,7 +102,7 @@ was too long to analyse using `-O0` parameter.
 
 ### Code length of each function 
 | Function | Type | Code length | Code length |
-| | | |(in asm lines)| (map file) |
+|          |      | (in asm lines)| (map file) |
 | -------- | ----------- | ----------- | ----------- |
 | countOnesA | Lookup table | 22 | 482 |
 | countOnesB | Counting least significant set bit | 9 | 50 |
