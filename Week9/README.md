@@ -13,7 +13,7 @@ Below are some links detailing the algorithms that I used:
 - ![Main code](/Week9/code.c)
 - ![Code generating lookup table](/Week9/gentable.c)
 
-## Use compiler and profiler
+## Speed of execution using profiler
 I did not have time to setup the tools for the test board so I did all tests on GCC compiler on Debian Linux
 
 Following setup was used:
@@ -94,6 +94,23 @@ there are basically executed in no time
 Maybe a [Valgrind](https://valgrind.org/) tool could be used to profile the
 memory usage but I don't have a time for that now
 
+## Code size using Linux GNU ARM GCC cross compiler
+I've compiled a code to assembly using `-O1` compiler parameter as the assembly 
+was too long to analyse using `-O0` parameter.
+
+### Code length of each function 
+| Function | Code length (in asm lines)|
+| -------- | ----------- |
+| countOnesA | 22 |
+| countOnesB | 9 |
+| countOnesC | 22 |
+| countOnesD | 19 |
+| countOnesE | 13 |
+| countOnesF | 12 |
+
+Code size calculated like this is not real representation of the real MCU code size this
+should be calculated from map file but I'll use it here because of the lack of time 
+
 ## Descriptions and comments
 
 ### Lookup table (Function A)
@@ -157,6 +174,7 @@ uint8_t countOnesB(uint32_t x)
  This function just shifts the bits to right and counts n & (n - 1) always eliminates 
  the least significant 1.
  Each time the least significant 1 is eliminated the count is increased until the n is 0
+
  I would easily use this function in a project if couting set bits is not used
  often.
 
@@ -164,6 +182,7 @@ uint8_t countOnesB(uint32_t x)
 - Simplicity so it is easy to understand
 - It could be easily adjusted to be used on any word width
 - Memory usage
+- Code space, this is the shortest function in Linux ARM GCC assembly
 ### Cons
 - The function proved to be slow
 
@@ -201,6 +220,7 @@ uint8_t countOnesD (uint32_t x){
 ```
 Calculating number of set bits sort of in parallel by "shifting" the set bits to right
 Magic numbers used are 0x55555555, 0x33333333, 0x0f0f0f0f, 0x00ff00ff, 0x0000ffff
+
 These numbers are representing growing parts of bytes which are "remembering"
 set bits
 
@@ -227,7 +247,7 @@ uint8_t countOnesE(uint32_t v)
     return c;
 }
 ```
-Same as function D but rewritten so it is easier to expand 
+Same as function D but rewritten so it is easier to expand
 
 ### Pros
 - Apparently very fast
@@ -235,6 +255,7 @@ Same as function D but rewritten so it is easier to expand
 - It could be easily adjusted to be used on any word width
 ### Cons
 - It is hard to understand without examining it in detail
+- Slower than Function E using the same principle
 
 
 ## Simplest and stupidest function that first pops into my mind (Function F)
