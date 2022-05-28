@@ -99,12 +99,10 @@ memory usage but I don't have a time for that now
 ## Code size using Linux GNU ARM GCC cross compiler
 I've compiled a code to assembly using `-O1` compiler parameter as the assembly 
 was too long to analyse using `-O0` parameter.
-Map file was generated on Linux GCC compiler as ARM cross compiler needs to be setup first so 
-numbers might be a bit off
 
 ### Code length of each function 
 | Function | Code length (in asm lines)| Code length (map file) |
-| -------- | ----------- |
+| -------- | ----------- | ----------- |
 | countOnesA | 22 | 482 |
 | countOnesB | 9 | 50 |
 | countOnesC | 22 | 115 |
