@@ -277,7 +277,7 @@ uint8_t countOnesF(uint32_t v)
     return count;
 }
 ```
-This is the first function that poped into my mind when I've chosen the
+This is the first function that popped into my mind when I've chosen the
 algorithm. It adds 1 to count in case that least significant bit is set and
 then shifts the number to right by one.
 I would not use this ever but would be my first choice if asked on interview.
