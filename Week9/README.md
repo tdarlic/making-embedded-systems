@@ -1,6 +1,8 @@
 # Week 9 homwork: Multiple implementations
 Algorithm: How many bits are one in a given 32-bit uint?
 
+__Note:__ _All code was compiled and analysed on Linux GCC compiler on computer so it might be different on MCU_
+
 ## This is known as Hamming weight and further explanations can be found in [Wikipedia](https://en.wikipedia.org/wiki/Hamming_weight):
 
 Below are some links detailing the algorithms that I used:
@@ -97,19 +99,23 @@ memory usage but I don't have a time for that now
 ## Code size using Linux GNU ARM GCC cross compiler
 I've compiled a code to assembly using `-O1` compiler parameter as the assembly 
 was too long to analyse using `-O0` parameter.
+Map file was generated on Linux GCC compiler as ARM cross compiler needs to be setup first so 
+numbers might be a bit off
 
 ### Code length of each function 
-| Function | Code length (in asm lines)|
+| Function | Code length (in asm lines)| Code length (map file) |
 | -------- | ----------- |
-| countOnesA | 22 |
-| countOnesB | 9 |
-| countOnesC | 22 |
-| countOnesD | 19 |
-| countOnesE | 13 |
-| countOnesF | 12 |
+| countOnesA | 22 | 482 |
+| countOnesB | 9 | 50 |
+| countOnesC | 22 | 115 |
+| countOnesD | 19 | 136 |
+| countOnesE | 13 | 161 |
+| countOnesF | 12 | 66 |
 
 Code size calculated like this is not real representation of the real MCU code size this
 should be calculated from map file but I'll use it here because of the lack of time 
+
+See assembly file in ![ASM file](/Week9/code.asm)
 
 ## Descriptions and comments
 
