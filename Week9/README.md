@@ -12,8 +12,8 @@ Below are some links detailing the algorithms that I used:
 - https://gurmeet.net/puzzles/fast-bit-counting-routines/
 
 ## Code
-- ![Main code](/Week9/code.c)
-- ![Code generating lookup table](/Week9/gentable.c)
+- [Main code](/Week9/code.c)
+- [Code generating lookup table](/Week9/gentable.c)
 
 ## Speed of execution using profiler
 I did not have time to setup the tools for the test board so I did all tests on GCC compiler on Debian Linux
@@ -114,7 +114,7 @@ was too long to analyse using `-O0` parameter.
 Code size calculated like this is not real representation of the real MCU code size this
 should be calculated from map file but I'll use it here because of the lack of time 
 
-See assembly file in ![ASM file](/Week9/code.asm)
+See assembly file in [ASM file](/Week9/code.asm)
 
 ## Descriptions and comments
 
@@ -144,7 +144,7 @@ uint8_t countOnesA(uint32_t x)
     return table[ca] + table[cb] + table[cc] + table[cd];
 }
 ```
-This function uses lookup table. This table is generated with the code used ![here](/Week9/gentable.c)
+This function uses lookup table. This table is generated with the code used [here](/Week9/gentable.c)
 Table could be generated at the start of the code and reused for each
 repetition
 
